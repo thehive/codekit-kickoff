@@ -14,13 +14,11 @@ build a project easily in a modular way that can allow another developer to eith
 With all of that in mind, CodeKit is obviously a dependency to this project. While you could likely untangle the web with not a lot of effort, the purpose of this project 
 is to be used with CodeKit.
 
-
 Acknowledgement:
 
 CodeKit, jQuery, jQuery Mobile, Twitter Bootstrap, Font-Awesome, and Normalize.css are all able to be used within this project. I find these tools/libraries to be 
 invaluable to my daily workflow. As such, I want to say thank you to everyone who has contributed to them, since they likely provide me with countless saved hours.
 To that end, each of these tools/libraries have their own Licensing Restrictions. It is your responsibility to be aware of them.
-
 
 Basic Application Structure:
 
@@ -99,6 +97,7 @@ their respective directory structure as expected by their own dependencies. This
 unnecessary intervention.
 
 COMPILED Files (Do Not Edit Directly):
+
 	├── app/css/app.min.css
 	├── app/js/app.min.js
 	└── html/index.html
@@ -109,53 +108,48 @@ concatenation or minification. This way the other developer(s) have the opportun
 is probably safer for those developers to create their own CSS file to import so that you don't end up colliding with them or overwriting their development in the 
 event that you build and compile at a later date.
 
-
 Application Files:
 All Production support files reside in the "/app" directory. As mentioned, it is best in most circumstances to not edit these files, since they are compiled from other
 sources.
 
-
 Build Files: 
 All Build files reside in the "/build" directory
 
-	LESS (/build/less):
-	This project uses LESS CSS (http://lesscss.org) for managing all style elements. CodeKit has the ability to compile the LESS code to a unified CSS file. The default
-	management of this file is to leverage the build/less/app.less file for handling all imports, including all "partial" LESS files, which reside in the build/less/partials
-	directory. A good usage of this might be to create a header.less file that defines all of the styles related to the header of a document. The app.less file would then
-	import the header.less file. The final output upon compilation from CodeKit would be the app/css/app.min.css under the default management of this project. 
-	
-	NOTE: If you prefer to use SASS (http://sass-lang.com) vs. LESS, this is fine, but you would need to port over all of the variables, etc. that are currently used to 
-	SASS syntax. 
-	
-	NOTE: While I prefer to use CodeKit, if you prefer to use something else to work with LESS, there are many options to remove CodeKit from this workflow, which include the 
-	usage of other compilers (http://fadeyev.net/2012/02/16/less-update/) or the default LESS process, which utilizes a JavaScript compiler within the DOM. 
-	
-	KITS (/build/kits):
-	This project takes advantage of CodeKit's "kit language" (http://incident57.com/codekit/kit.php). This allows you to build html includes (such as header/footer, etc.)
-	without the need to use a dynamic language. This is very beneficial for rapid prototyping with reused elements. The default usage of this feature within this project
-	is to create your primary kit files (/build/kits/index.kit) and include any partials (/build/kits/partials) for any reused elements. CodeKit is configured in this 
-	project to then compile the index.kit file to index.html within the "/html" directory.
-	
-	JS (/build/js):
-	This project compiles its JavaScript into a minified and JSLint(ed) output file (/app/js/app.min.js). Through CodeKit, part of the compiling process is to prepend
-	jQuery by default. If you choose, you can also prepend other libraries via CodeKit's prepending ability. Twitter Bootstrap and jQuery Mobile both will be detected
-	by CodeKit for prepending/appending to your JavaScript file, but in order to include them, you will have to manually drag them into the prepend/appended state within
-	CodeKit.
+LESS (/build/less):
+This project uses LESS CSS (http://lesscss.org) for managing all style elements. CodeKit has the ability to compile the LESS code to a unified CSS file. The default
+management of this file is to leverage the build/less/app.less file for handling all imports, including all "partial" LESS files, which reside in the build/less/partials
+directory. A good usage of this might be to create a header.less file that defines all of the styles related to the header of a document. The app.less file would then
+import the header.less file. The final output upon compilation from CodeKit would be the app/css/app.min.css under the default management of this project. 
 
+NOTE: If you prefer to use SASS (http://sass-lang.com) vs. LESS, this is fine, but you would need to port over all of the variables, etc. that are currently used to 
+SASS syntax. 
+
+NOTE: While I prefer to use CodeKit, if you prefer to use something else to work with LESS, there are many options to remove CodeKit from this workflow, which include the 
+usage of other compilers (http://fadeyev.net/2012/02/16/less-update/) or the default LESS process, which utilizes a JavaScript compiler within the DOM. 
+
+KITS (/build/kits):
+This project takes advantage of CodeKit's "kit language" (http://incident57.com/codekit/kit.php). This allows you to build html includes (such as header/footer, etc.)
+without the need to use a dynamic language. This is very beneficial for rapid prototyping with reused elements. The default usage of this feature within this project
+is to create your primary kit files (/build/kits/index.kit) and include any partials (/build/kits/partials) for any reused elements. CodeKit is configured in this 
+project to then compile the index.kit file to index.html within the "/html" directory.
+
+JS (/build/js):
+This project compiles its JavaScript into a minified and JSLint(ed) output file (/app/js/app.min.js). Through CodeKit, part of the compiling process is to prepend
+jQuery by default. If you choose, you can also prepend other libraries via CodeKit's prepending ability. Twitter Bootstrap and jQuery Mobile both will be detected
+by CodeKit for prepending/appending to your JavaScript file, but in order to include them, you will have to manually drag them into the prepend/appended state within
+CodeKit.
 
 HTML Files:
 All Production HTML files reside in the "/html" directory. As mentioned, it is best in most circumstances to not edit these files, since they are compiled from other
 sources.
 
-
 Library Files:
 All third-party Library files reside in the "/lib" directory
 
-	NOTE: All library dependent style includes are activated and deactivated within the "/build/less/app.less" file. To activate or deactivate a library's style, simply
-	commend or uncomment that library's includes within "app.less"
-	
-	NOTE: The directory structure of the libraries has been retained for easy management of the libraries themselves.
+NOTE: All library dependent style includes are activated and deactivated within the "/build/less/app.less" file. To activate or deactivate a library's style, simply
+commend or uncomment that library's includes within "app.less"
 
+NOTE: The directory structure of the libraries has been retained for easy management of the libraries themselves.
 
 Project Licensing (CodeKit Kickoff ONLY):
 The MIT License (MIT)
