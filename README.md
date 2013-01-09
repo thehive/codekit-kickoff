@@ -24,70 +24,70 @@ To that end, each of these tools/libraries have their own Licensing Restrictions
 
 Basic Application Structure:
 
-├── app
-    ├── css
-        └── app.min.css
-    ├── img
-    └── js
-        └── app.min.js
-├── build
-    ├── js
-        └── app.js
-    ├── kits
-        ├── index.kit
-        └── partials
-            ├── footer.kit
-            └── header.kit
-    └── less
-        ├── app.less
-        └── partials
-            ├── colors.less
-            ├── globals.less
-            ├── mixins.less			
-            └── viewport.less
-├── codekit-config.json
-├── html
-    └── index.html
-├── lib	
-    ├── bootstrap-2.2.2
-        ├── css
-            ├── bootstrap-responsive.min.css
-            └── bootstrap.min.css
-        ├── img
-            ├── glyphicons-halflings-white.png
-            └── glyphicons-halflings.png
-        └── js			
-            └── bootstrap.min.js
-    ├── font-awesome-3.0.0
-        ├── css
-            ├── font-awesome-ie7.min.css
-            └── font-awesome.min.css
-        └── font
-            ├── fontawesome-webfont.eot
-            ├── fontawesome-webfont.svg
-            ├── fontawesome-webfont.ttf
-            ├── fontawesome-webfont.woff
-            └── FontAwesome.otf
-    ├── jquery-1.8.3
-        ├── jquery-1.8.3.js
-    ├── jquery-mobile-1.2.0
-        ├── css
-        └── themes
-            └── default
-                └── images
-                    ├── ajax-loader.gif
-                    ├── icons-18-black.png
-                    ├── icons-18-white.png
-                    ├── icons-36-black.png
-                    └── icons-36-white.png						
-                ├── jquery.mobile-1.2.0.min.css
-                ├── jquery.mobile.structure-1.2.0.min.css
-                └── jquery.mobile.theme-1.2.0.min.css
-        └── js
-            └── jquery-mobile-1.2.0.js
-    └── normalize-2.0.1
-        └── normalize-2.0.1.css
-└── README
+	├── app
+		├── css
+			└── app.min.css
+		├── img
+		└── js
+			└── app.min.js
+	├── build
+		├── js
+			└── app.js
+		├── kits
+			├── index.kit
+			└── partials
+				├── footer.kit
+				└── header.kit
+		└── less
+			├── app.less
+			└── partials
+				├── colors.less
+				├── globals.less
+				├── mixins.less			
+				└── viewport.less
+	├── codekit-config.json
+	├── html
+		└── index.html
+	├── lib	
+		├── bootstrap-2.2.2
+			├── css
+				├── bootstrap-responsive.min.css
+				└── bootstrap.min.css
+			├── img
+				├── glyphicons-halflings-white.png
+				└── glyphicons-halflings.png
+			└── js			
+				└── bootstrap.min.js
+		├── font-awesome-3.0.0
+			├── css
+				├── font-awesome-ie7.min.css
+				└── font-awesome.min.css
+			└── font
+				├── fontawesome-webfont.eot
+				├── fontawesome-webfont.svg
+				├── fontawesome-webfont.ttf
+				├── fontawesome-webfont.woff
+				└── FontAwesome.otf
+		├── jquery-1.8.3
+			├── jquery-1.8.3.js
+		├── jquery-mobile-1.2.0
+			├── css
+			└── themes
+				└── default
+					└── images
+						├── ajax-loader.gif
+						├── icons-18-black.png
+						├── icons-18-white.png
+						├── icons-36-black.png
+						└── icons-36-white.png						
+					├── jquery.mobile-1.2.0.min.css
+					├── jquery.mobile.structure-1.2.0.min.css
+					└── jquery.mobile.theme-1.2.0.min.css
+			└── js
+				└── jquery-mobile-1.2.0.js
+		└── normalize-2.0.1
+			└── normalize-2.0.1.css
+	└── README
 
 NOTE: 
 
@@ -99,9 +99,9 @@ their respective directory structure as expected by their own dependencies. This
 unnecessary intervention.
 
 COMPILED Files (Do Not Edit Directly):
-├── app/css/app.min.css
-├── app/js/app.min.js
-└── html/index.html
+	├── app/css/app.min.css
+	├── app/js/app.min.js
+	└── html/index.html
 
 NOTE: As mentioned above, there are times when I want to hand the compiled files off to another developer not using CodeKit, thereby they will probably want to edit
 these compiled files. When this occurs, I simply do not provide the "/build" directory and configure CodeKit to compile "app.min.js" and "app.min.css" without any
