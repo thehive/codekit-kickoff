@@ -1,0 +1,15 @@
+// Font Docs: http://www.google.com/webfonts#UsePlace:use/Collection:Raleway
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+
+// Font Docs: http://www.google.com/webfonts#UsePlace:use/Collection:Oswald
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+
+@font-primary: 'Oswald';
+@font-secondary: 'Raleway';
+
+.customFont(@color:@default,@family:@font-primary,@size:14px,@style:normal,@weight:400) { 
+	color: @color;
+	font-family: @family, sans-serif;
+	font-style: @style;
+	font-weight: @weight;
+}
