@@ -1,10 +1,17 @@
 { 
 	Project:  CodeKit Application Kickoff Structure,
 	Author:   mike.lesher@gmail.com,
-	Version:  1.0.2,
+	Version:  1.0.3,
 	Updated:  01.17.13
 }
 
 01.09.13 v1.0.1: Initial Release
 
-01.17.13 v1.0.2: Updates to jQuery Library for 1.9.0 Release
+01.17.13 v1.0.2: 
+	Updates to jQuery Library for 1.9.0 Release
+
+01.17.13 v1.0.3: 
+	Minor tweaks to documentation
+	Moved reference to app.min.js from kits/partials/header.kit to kits/partials/footer.kit for faster page loading
+	Moved reference to the Viewport div ID from kits/partials/header.kit to the kits/index.kit
+	Moved reference to the Viewport close div ID from kits/partials/footer.kit to the kits/index.kit
