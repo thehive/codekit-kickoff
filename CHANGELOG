@@ -1,8 +1,10 @@
 { 
 	Project:  CodeKit Application Kickoff Structure,
 	Author:   mike.lesher@gmail.com,
-	Version:  0.0.1,
-	Updated:  01.07.13
+	Version:  1.0.1,
+	Updated:  01.17.13
 }
 
-01.09.12 v0.0.1: Initial Release
+01.09.13 v1.0.1: Initial Release
+
+01.17.13 v1.0.2: Updates to jQuery Library for 1.9.0 Release
