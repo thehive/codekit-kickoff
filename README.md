@@ -15,7 +15,7 @@ To that end, each of these frameworks and libraries have their own Licensing Res
 
 ## Contact
 
-- Email: [mike@thehivemedia.com](mike@thehivemedia.com)
+- Email: [mike@thehivemedia.com](mailto:mike@thehivemedia.com)
 - Twitter: [@mlesher](http://www.twitter.com/mlesher)
 - Facebook: [michaellesher](http://www.facebook.com/michaellesher)
 
