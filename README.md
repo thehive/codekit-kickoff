@@ -5,11 +5,11 @@ A scaffolding for use with [CodeKit](http://incident57.com/codekit/)
 
 ## Documentation
 
-The full documentation and structure of the scaffolding can be found at [CodeKit Kickoff](http://kickoff.thehivemedia.com)
+Full documentation and structure of the scaffolding can be found at [CodeKit Kickoff](http://kickoff.thehivemedia.com)
 
 ## Acknowledgement
 
-CodeKit, jQuery, jQuery Mobile, Twitter Bootstrap, Font-Awesome, and Normalize.css are can all be used within this project. I find these frameworks and libraries invaluable to my daily work. I thank everyone who has contributed to them, since they've saved me countless hours.
+CodeKit, jQuery, jQuery Mobile, Twitter Bootstrap, Font-Awesome, and Normalize.css can all be used within this project. I find these frameworks and libraries invaluable to my daily work. I thank everyone who has contributed to them, since they've saved me countless hours.
 
 To that end, each of these frameworks and libraries have their own Licensing Restrictions. It is your responsibility to be aware of them.
 
