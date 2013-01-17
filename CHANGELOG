@@ -1,7 +1,7 @@
 { 
 	Project:  CodeKit Application Kickoff Structure,
 	Author:   mike.lesher@gmail.com,
-	Version:  1.0.3,
+	Version:  1.0.4,
 	Updated:  01.17.13
 }
 
@@ -15,3 +15,6 @@
 	Moved reference to app.min.js from kits/partials/header.kit to kits/partials/footer.kit for faster page loading
 	Moved reference to the Viewport div ID from kits/partials/header.kit to the kits/index.kit
 	Moved reference to the Viewport close div ID from kits/partials/footer.kit to the kits/index.kit
+	
+01.17.13 v1.0.4: 
+	Fixed error in the build/less/globals/fonts.less file where the size value was not being applied.
