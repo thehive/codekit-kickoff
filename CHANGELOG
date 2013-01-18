@@ -18,3 +18,6 @@
 	
 01.17.13 v1.0.4: 
 	Fixed error in the build/less/globals/fonts.less file where the size value was not being applied.
+	
+01.18.13 v1.0.5: 
+	Update to build/less/globals/colors.less to include base, highlight and accent variables for easy switching of themes
