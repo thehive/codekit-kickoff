@@ -21,3 +21,8 @@
 	
 01.18.13 v1.0.5: 
 	Update to build/less/globals/colors.less to include base, highlight and accent variables for easy switching of themes
+	
+01.23.13 v1.0.6: 
+	Automatic Inclusion of Twitter Bootstrap, jQuery & Font Awesome
+	Update to Font Awesome 3.0.2
+	Update to Normalize CSS 2.0.1
