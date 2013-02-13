@@ -36,3 +36,7 @@
 	Updates to referential files for handling the new library naming convensions
 	Update to include a placeholder for Mobile Specific styles /build/less/partials/mobile.less
 	Update to /build/less/app.less to include the new mobile.less file
+	
+02.13.13 v1.0.9: 
+	Minor tweaks to mixins.less and fonts.less
+	
