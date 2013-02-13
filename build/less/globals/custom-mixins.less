@@ -1,0 +1,23 @@
+.centered(@width: 1020px) { 
+	margin: 0 auto 0 auto;	
+	width: @width;
+}
+
+.clearFix() { 
+	&:before, &:after { 
+		content: "";
+		display: table;
+	}
+	&:after { 
+		clear: both !important;
+	}
+	zoom: 1;
+}
+
+.debug(@color: red) { 
+	background: @color;
+}
+
+.textShadow(@h:0.1em, @v:0.1em, @blur:0, @color:@default) {
+	text-shadow: @h @v @blur @color;
+}
