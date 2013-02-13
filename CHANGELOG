@@ -1,8 +1,8 @@
 { 
 	Project:  CodeKit Kickoff,
 	Author:   mike.lesher@gmail.com,
-	Version:  1.0.8,
-	Updated:  02.12.13
+	Version:  1.1.0,
+	Updated:  02.13.13
 }
 
 01.09.13 v1.0.1: Initial Release
@@ -41,6 +41,6 @@
 	Minor tweaks to mixins.less and fonts.less
 	
 02.13.13 v1.1.0: 
-	NEW: Added LessHat to default lib set for access to conveient LESS mixins
+	NEW: Added LessHat to default lib set for access to convenient LESS mixins
 	Updates to mixins.less for removal of redundant (to LessHat) mixins
 	Rename of mixins.less to custom-mixins.less
