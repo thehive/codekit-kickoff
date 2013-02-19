@@ -44,3 +44,6 @@
 	NEW: Added LessHat to default lib set for access to convenient LESS mixins
 	Updates to mixins.less for removal of redundant (to LessHat) mixins
 	Rename of mixins.less to custom-mixins.less
+	
+02.19.13 v1.1.1: 
+	Updates to custom-mixins.less to add in new valuable mixins AND the ability to pass in LESS variables to most mixins. This is currently not a feature of many mixins with LESS Hat.
