@@ -1,4 +1,5 @@
 // [ Libraries ]
+// NOTE: All of the library paths included here are relative to the output file EXCEPT for LESSHat, which is relative to this file.
 // ------------------------------------------------------------------------
 // { Bootstrap } --> DO NOT USE WITH NORMALIZE
 // { Project URL: http://twitter.github.com/bootstrap }
@@ -10,10 +11,6 @@
 	@import "../../lib/font-awesome/3.0.2/css/font-awesome.min.css"; 
 	@import "../../lib/font-awesome/3.0.2/css/font-awesome-ie7.min.css";
 
-// { LESS Hat }
-// { Project URL: http://lesshat.com }
-	@import "../../lib/lesshat/1.1.1/lesshat.less"; 
-
 // { Normalize } --> DO NOT USE WITH TWITTER BOOTSTRAP
 // { Project URL: http://necolas.github.com/normalize.css }
 	// @import "../../lib/normalize/2.1.0/normalize.css";
@@ -23,6 +20,10 @@
 	// @import "../../lib/jquery-mobile/1.2.0/css/themes/default/jquery.mobile.structure.min.css";
 	// @import "../../lib/jquery-mobile/1.2.0/css/themes/default/jquery.mobile.min.css";
 
+// { LESS Hat }
+// { Project URL: http://lesshat.com }
+// { NOTE: The path to the LESSHat file needs to be relative to this file, since it is compiled into app.min.css }
+	// @import "../../app/lib/lesshat/1.1.1/lesshat.less"; 
 
 // [ Image Path Relative to /app/css ]
 // ------------------------------------------------------------------------

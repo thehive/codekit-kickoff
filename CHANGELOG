@@ -47,3 +47,8 @@
 	
 02.19.13 v1.1.1: 
 	Updates to custom-mixins.less to add in new valuable mixins AND the ability to pass in LESS variables to most mixins. This is currently not a feature of many mixins with LESS Hat.
+	
+02.20.13 v1.2.0: 
+	Removed /html and moved index.html to /app -> Updated the CodeKit path for .kit files
+	Added app/_ directory and moved the css, img and js production files/folders within it -> Updated the corresponding CodeKit paths
+	Moved the lib directory within the /app directory -> Updated app.less file accordingly

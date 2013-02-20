@@ -2,27 +2,23 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "8248",
   "files" : {
-    "\/lib\/jquery-mobile\/1.2.0\/js\/jquery-mobile.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/jquery-mobile\/1.2.0\/js\/jquery-mobile.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 2,
-      "outputAbbreviatedPath" : "\/app\/js\/jquery-mobile.min.js",
-      "fileType" : 64
-    },
-    "\/lib\/bootstrap\/2.3.0\/js\/bootstrap.min.js" : {
+    "\/app\/index.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/bootstrap\/2.3.0\/js\/bootstrap.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 2,
-      "outputAbbreviatedPath" : "\/app\/js\/bootstrap.min.min.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/app\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/app\/lib\/font-awesome\/3.0.2\/css\/font-awesome.min.css" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/app\/lib\/font-awesome\/3.0.2\/css\/font-awesome.min.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/build\/less\/globals\/colors.less" : {
       "ignoreWasSetByUser" : 0,
@@ -37,52 +33,52 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/lib\/font-awesome\/3.0.2\/css\/font-awesome.min.css" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/font-awesome\/3.0.2\/css\/font-awesome.min.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
     "\/build\/js\/app.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
+      "outputPathIsSetByUser" : 1,
       "inputAbbreviatedPath" : "\/build\/js\/app.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 2,
-      "outputAbbreviatedPath" : "\/app\/js\/app.min.js",
+      "outputAbbreviatedPath" : "\/app\/_\/js\/app.min.js",
       "fileType" : 64
     },
-    "\/lib\/bootstrap\/2.3.0\/css\/bootstrap.min.css" : {
+    "\/app\/lib\/bootstrap\/2.3.0\/img\/glyphicons-halflings-white.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/app\/lib\/bootstrap\/2.3.0\/img\/glyphicons-halflings-white.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/app\/lib\/bootstrap\/2.3.0\/img\/glyphicons-halflings-white.png",
+      "initialSize" : 8777,
+      "fileType" : 8192
+    },
+    "\/app\/lib\/bootstrap\/2.3.0\/css\/bootstrap-responsive.min.css" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/bootstrap\/2.3.0\/css\/bootstrap.min.css",
+      "inputAbbreviatedPath" : "\/app\/lib\/bootstrap\/2.3.0\/css\/bootstrap-responsive.min.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/app\/js\/app.min.js" : {
-      "ignoreWasSetByUser" : 0,
+    "\/app\/lib\/jquery-mobile\/1.2.0\/css\/themes\/default\/jquery.mobile.theme.min.css" : {
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 0,
+      "hidden" : 1,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/app\/js\/app.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 2,
-      "outputAbbreviatedPath" : "\/app\/js\/app.min.min.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/app\/lib\/jquery-mobile\/1.2.0\/css\/themes\/default\/jquery.mobile.theme.min.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
-    "\/lib\/lesshat\/1.1.1\/lesshat.less" : {
-      "ignoreWasSetByUser" : 0,
+    "\/app\/lib\/lesshat\/1.1.1\/lesshat.less" : {
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 0,
+      "hidden" : 1,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/lesshat\/1.1.1\/lesshat.less",
+      "inputAbbreviatedPath" : "\/app\/lib\/lesshat\/1.1.1\/lesshat.less",
       "outputStyle" : 2,
       "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/app\/css\/lesshat.css",
@@ -90,14 +86,14 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/html\/index.html" : {
+    "\/build\/kits\/partials\/header.kit" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/html\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/build\/kits\/partials\/header.kit",
+      "outputAbbreviatedPath" : "\/html\/header.html",
+      "fileType" : 65536
     },
     "\/build\/less\/partials\/viewport.less" : {
       "ignoreWasSetByUser" : 0,
@@ -112,14 +108,16 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/lib\/font-awesome\/3.0.2\/css\/font-awesome-ie7.min.css" : {
-      "ignoreWasSetByUser" : 1,
+    "\/app\/_\/js\/app.min.js" : {
+      "ignoreWasSetByUser" : 0,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/font-awesome\/3.0.2\/css\/font-awesome-ie7.min.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
+      "inputAbbreviatedPath" : "\/app\/_\/js\/app.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 2,
+      "outputAbbreviatedPath" : "\/app\/js\/app.min.min.js",
+      "fileType" : 64
     },
     "\/build\/less\/globals\/fonts.less" : {
       "ignoreWasSetByUser" : 0,
@@ -134,58 +132,67 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/lib\/bootstrap\/2.3.0\/img\/glyphicons-halflings.png" : {
+    "\/app\/lib\/bootstrap\/2.3.0\/img\/glyphicons-halflings.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/bootstrap\/2.3.0\/img\/glyphicons-halflings.png",
+      "inputAbbreviatedPath" : "\/app\/lib\/bootstrap\/2.3.0\/img\/glyphicons-halflings.png",
       "processed" : 1,
-      "outputAbbreviatedPath" : "\/lib\/bootstrap\/2.3.0\/img\/glyphicons-halflings.png",
+      "outputAbbreviatedPath" : "\/app\/lib\/bootstrap\/2.3.0\/img\/glyphicons-halflings.png",
       "initialSize" : 12764,
       "fileType" : 8192
     },
-    "\/app\/css\/app.min.css" : {
-      "ignoreWasSetByUser" : 0,
+    "\/app\/lib\/jquery-mobile\/1.2.0\/js\/jquery-mobile.js" : {
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/app\/css\/app.min.css",
+      "inputAbbreviatedPath" : "\/app\/lib\/jquery-mobile\/1.2.0\/js\/jquery-mobile.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 2,
+      "outputAbbreviatedPath" : "\/app\/js\/jquery-mobile.min.js",
+      "fileType" : 64
+    },
+    "\/app\/lib\/jquery-mobile\/1.2.0\/css\/themes\/default\/jquery.mobile.structure.min.css" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/app\/lib\/jquery-mobile\/1.2.0\/css\/themes\/default\/jquery.mobile.structure.min.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/build\/kits\/partials\/header.kit" : {
+    "\/app\/lib\/jquery-mobile\/1.2.0\/css\/themes\/default\/images\/icons-18-black.png" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/kits\/partials\/header.kit",
-      "outputAbbreviatedPath" : "\/html\/header.html",
-      "fileType" : 65536
+      "inputAbbreviatedPath" : "\/app\/lib\/jquery-mobile\/1.2.0\/css\/themes\/default\/images\/icons-18-black.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/app\/lib\/jquery-mobile\/1.2.0\/css\/themes\/default\/images\/icons-18-black.png",
+      "initialSize" : 1767,
+      "fileType" : 8192
     },
-    "\/lib\/jquery\/1.9.1\/jquery.min.js" : {
-      "ignoreWasSetByUser" : 0,
+    "\/app\/lib\/jquery-mobile\/1.2.0\/css\/themes\/default\/jquery.mobile.min.css" : {
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 0,
+      "hidden" : 1,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/jquery\/1.9.1\/jquery.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 2,
-      "outputAbbreviatedPath" : "\/app\/js\/jquery.min.min.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/app\/lib\/jquery-mobile\/1.2.0\/css\/themes\/default\/jquery.mobile.min.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
-    "\/build\/less\/globals\/defaults.less" : {
+    "\/app\/lib\/jquery-mobile\/1.2.0\/css\/themes\/default\/images\/icons-18-white.png" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/less\/globals\/defaults.less",
-      "outputStyle" : 2,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/app\/css\/defaults.css",
-      "strictImports" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/app\/lib\/jquery-mobile\/1.2.0\/css\/themes\/default\/images\/icons-18-white.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/app\/lib\/jquery-mobile\/1.2.0\/css\/themes\/default\/images\/icons-18-white.png",
+      "initialSize" : 1806,
+      "fileType" : 8192
     },
     "\/build\/less\/app.less" : {
       "ignoreWasSetByUser" : 0,
@@ -195,21 +202,39 @@
       "inputAbbreviatedPath" : "\/build\/less\/app.less",
       "outputStyle" : 2,
       "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/app\/css\/app.min.css",
+      "outputAbbreviatedPath" : "\/app\/_\/css\/app.min.css",
       "strictImports" : 0,
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/lib\/bootstrap\/2.3.0\/img\/glyphicons-halflings-white.png" : {
+    "\/build\/kits\/index.kit" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/bootstrap\/2.3.0\/img\/glyphicons-halflings-white.png",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/lib\/bootstrap\/2.3.0\/img\/glyphicons-halflings-white.png",
-      "initialSize" : 8777,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/build\/kits\/index.kit",
+      "outputAbbreviatedPath" : "\/app\/index.html",
+      "fileType" : 65536
+    },
+    "\/app\/lib\/bootstrap\/2.3.0\/css\/bootstrap.min.css" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/app\/lib\/bootstrap\/2.3.0\/css\/bootstrap.min.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/app\/lib\/jquery\/1.9.1\/jquery.min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/app\/lib\/jquery\/1.9.1\/jquery.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 2,
+      "outputAbbreviatedPath" : "\/app\/js\/jquery.min.min.js",
+      "fileType" : 64
     },
     "\/build\/kits\/partials\/footer.kit" : {
       "ignoreWasSetByUser" : 0,
@@ -218,15 +243,6 @@
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/build\/kits\/partials\/footer.kit",
       "outputAbbreviatedPath" : "\/html\/footer.html",
-      "fileType" : 65536
-    },
-    "\/build\/kits\/index.kit" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/kits\/index.kit",
-      "outputAbbreviatedPath" : "\/html\/index.html",
       "fileType" : 65536
     },
     "\/build\/less\/partials\/mobile.less" : {
@@ -242,36 +258,25 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/lib\/jquery-mobile\/1.2.0\/css\/themes\/default\/images\/icons-18-white.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/jquery-mobile\/1.2.0\/css\/themes\/default\/images\/icons-18-white.png",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/lib\/jquery-mobile\/1.2.0\/css\/themes\/default\/images\/icons-18-white.png",
-      "initialSize" : 1806,
-      "fileType" : 8192
-    },
-    "\/lib\/jquery-mobile\/1.2.0\/css\/themes\/default\/images\/icons-18-black.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/jquery-mobile\/1.2.0\/css\/themes\/default\/images\/icons-18-black.png",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/lib\/jquery-mobile\/1.2.0\/css\/themes\/default\/images\/icons-18-black.png",
-      "initialSize" : 1767,
-      "fileType" : 8192
-    },
-    "\/lib\/jquery-mobile\/1.2.0\/css\/themes\/default\/jquery.mobile.theme.min.css" : {
+    "\/app\/lib\/normalize\/2.1.0\/normalize.css" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/jquery-mobile\/1.2.0\/css\/themes\/default\/jquery.mobile.theme.min.css",
+      "inputAbbreviatedPath" : "\/app\/lib\/normalize\/2.1.0\/normalize.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
+    },
+    "\/app\/lib\/jquery-mobile\/1.2.0\/css\/themes\/default\/images\/icons-36-white.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/app\/lib\/jquery-mobile\/1.2.0\/css\/themes\/default\/images\/icons-36-white.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/app\/lib\/jquery-mobile\/1.2.0\/css\/themes\/default\/images\/icons-36-white.png",
+      "initialSize" : 3648,
+      "fileType" : 8192
     },
     "\/build\/less\/globals\/custom-mixins.less" : {
       "ignoreWasSetByUser" : 0,
@@ -286,77 +291,72 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/lib\/jquery-mobile\/1.2.0\/css\/themes\/default\/images\/icons-36-white.png" : {
+    "\/app\/lib\/jquery-mobile\/1.2.0\/css\/themes\/default\/images\/icons-36-black.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/jquery-mobile\/1.2.0\/css\/themes\/default\/images\/icons-36-white.png",
+      "inputAbbreviatedPath" : "\/app\/lib\/jquery-mobile\/1.2.0\/css\/themes\/default\/images\/icons-36-black.png",
       "processed" : 1,
-      "outputAbbreviatedPath" : "\/lib\/jquery-mobile\/1.2.0\/css\/themes\/default\/images\/icons-36-white.png",
-      "initialSize" : 3648,
-      "fileType" : 8192
-    },
-    "\/lib\/normalize\/2.1.0\/normalize.css" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/normalize\/2.1.0\/normalize.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/lib\/jquery-mobile\/1.2.0\/css\/themes\/default\/images\/icons-36-black.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/jquery-mobile\/1.2.0\/css\/themes\/default\/images\/icons-36-black.png",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/lib\/jquery-mobile\/1.2.0\/css\/themes\/default\/images\/icons-36-black.png",
+      "outputAbbreviatedPath" : "\/app\/lib\/jquery-mobile\/1.2.0\/css\/themes\/default\/images\/icons-36-black.png",
       "initialSize" : 3611,
       "fileType" : 8192
     },
-    "\/lib\/jquery-mobile\/1.2.0\/css\/themes\/default\/jquery.mobile.min.css" : {
+    "\/app\/lib\/font-awesome\/3.0.2\/css\/font-awesome-ie7.min.css" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/jquery-mobile\/1.2.0\/css\/themes\/default\/jquery.mobile.min.css",
+      "inputAbbreviatedPath" : "\/app\/lib\/font-awesome\/3.0.2\/css\/font-awesome-ie7.min.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/lib\/jquery-mobile\/1.2.0\/css\/themes\/default\/jquery.mobile.structure.min.css" : {
-      "ignoreWasSetByUser" : 1,
+    "\/app\/_\/css\/app.min.css" : {
+      "ignoreWasSetByUser" : 0,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/jquery-mobile\/1.2.0\/css\/themes\/default\/jquery.mobile.structure.min.css",
+      "inputAbbreviatedPath" : "\/app\/_\/css\/app.min.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/lib\/bootstrap\/2.3.0\/css\/bootstrap-responsive.min.css" : {
-      "ignoreWasSetByUser" : 1,
+    "\/build\/less\/globals\/defaults.less" : {
+      "ignoreWasSetByUser" : 0,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/bootstrap\/2.3.0\/css\/bootstrap-responsive.min.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
+      "inputAbbreviatedPath" : "\/build\/less\/globals\/defaults.less",
+      "outputStyle" : 2,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/app\/css\/defaults.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+    "\/app\/lib\/bootstrap\/2.3.0\/js\/bootstrap.min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/app\/lib\/bootstrap\/2.3.0\/js\/bootstrap.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 2,
+      "outputAbbreviatedPath" : "\/app\/js\/bootstrap.min.min.js",
+      "fileType" : 64
     }
   },
   "manualImportLinks" : [
     {
       "type" : 0,
       "position" : 0,
-      "linkedFileAbbreviatedPath" : "\/lib\/jquery\/1.9.1\/jquery.min.js",
+      "linkedFileAbbreviatedPath" : "\/app\/lib\/jquery\/1.9.1\/jquery.min.js",
       "baseFileAbbreviatedPath" : "\/build\/js\/app.js",
       "followForSyntaxChecking" : 1
     },
     {
       "type" : 0,
       "position" : 1,
-      "linkedFileAbbreviatedPath" : "\/lib\/bootstrap\/2.3.0\/js\/bootstrap.min.js",
+      "linkedFileAbbreviatedPath" : "\/app\/lib\/bootstrap\/2.3.0\/js\/bootstrap.min.js",
       "baseFileAbbreviatedPath" : "\/build\/js\/app.js",
       "followForSyntaxChecking" : 1
     }
