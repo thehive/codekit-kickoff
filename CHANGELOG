@@ -52,3 +52,6 @@
 	Removed /html and moved index.html to /app -> Updated the CodeKit path for .kit files
 	Added app/_ directory and moved the css, img and js production files/folders within it -> Updated the corresponding CodeKit paths
 	Moved the lib directory within the /app directory -> Updated app.less file accordingly
+
+02.20.13 v1.2.1: 
+	Changed the customFont mixin (build/less/globals/fonts.less) mixin to custom-font for consistency with the other mixins
