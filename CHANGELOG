@@ -1,8 +1,8 @@
 { 
 	Project:  CodeKit Kickoff,
 	Author:   mike.lesher@gmail.com,
-	Version:  1.1.0,
-	Updated:  02.13.13
+	Version:  1.2.2,
+	Updated:  02.21.13
 }
 
 01.09.13 v1.0.1: Initial Release
@@ -55,3 +55,6 @@
 
 02.20.13 v1.2.1: 
 	Changed the customFont mixin (build/less/globals/fonts.less) mixin to custom-font for consistency with the other mixins
+	
+02.21.13 v1.2.2: 	
+	Changed the textShadow mixin (build/less/globals/fonts.less) mixin to text-shadow for consistency with the other mixins
