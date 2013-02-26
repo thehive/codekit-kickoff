@@ -58,3 +58,6 @@
 	
 02.21.13 v1.2.2: 	
 	Changed the textShadow mixin (build/less/globals/fonts.less) mixin to text-shadow for consistency with the other mixins
+
+02.26.13 v1.2.3: 	
+	Updated jQuery Mobile for version 1.3.0 release: http://jquerymobile.com/blog/2013/02/20/jquery-mobile-1-3-0-released
