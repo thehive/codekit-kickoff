@@ -1,6 +1,12 @@
 html, body { min-height: 100%; height: 100%; }
 
-a { text-decoration: none; }
+a { 
+	color: @highlight;
+	&:hover,&:focus { 
+		color: @accent;
+	}
+	text-decoration: none; 
+}
 
 body {
 	-webkit-font-smoothing: subpixel-antialiased;
@@ -12,6 +18,13 @@ body {
 h1,h2,h3,h4,h5,h6 { 
 	margin: 0;
 	padding: 0;
+}
+
+hr { 
+	background: @black;		
+	border: 0;
+	height: 1px;
+	margin: 0 10px 0 0;		
 }
 
 img { border: none; }

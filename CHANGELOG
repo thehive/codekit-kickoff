@@ -61,3 +61,10 @@
 
 02.26.13 v1.2.3: 	
 	Updated jQuery Mobile for version 1.3.0 release: http://jquerymobile.com/blog/2013/02/20/jquery-mobile-1-3-0-released
+	
+03.06.13 v1.2.4:
+	Added app/_/img/theme directory for segretating theme-based images into their own location
+	Updated build/less/app.less for referencing global LESS variable @img-url to reference the new img/theme path
+	Updated build/less/globals/colors.less to include @base, @highlight and @accent variables
+	Added new parameters to the "a" reference within the build/less/globals/defaults.less for handling hover/focus by default
+	Added hr parameter to the build/less/globals/defaults.less file for more control over the hr tag's style
