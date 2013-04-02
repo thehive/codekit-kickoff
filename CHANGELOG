@@ -1,8 +1,8 @@
 { 
 	Project:  CodeKit Kickoff,
-	Author:   mike.lesher@gmail.com,
-	Version:  1.2.2,
-	Updated:  02.21.13
+	Author:   mike@thehivemedia.com,
+	Version:  1.2.5,
+	Updated:  04.02.13
 }
 
 01.09.13 v1.0.1: Initial Release
@@ -68,3 +68,7 @@
 	Updated build/less/globals/colors.less to include @base, @highlight and @accent variables
 	Added new parameters to the "a" reference within the build/less/globals/defaults.less for handling hover/focus by default
 	Added hr parameter to the build/less/globals/defaults.less file for more control over the hr tag's style
+	
+04.02.13 v1.2.5:
+	Update to Bootstrap v2.3.1
+	Update to documentation
