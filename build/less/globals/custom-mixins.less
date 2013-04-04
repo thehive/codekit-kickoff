@@ -1,3 +1,8 @@
+// Custom Mixins
+// Description: Custom Mixins for use throughout the application
+// Note: In lieu of using LESS Hat, you can use (default) these custom mixins that I have curated over time
+
+
 .border-radius(@topleft: 5px, @topright: 5px, @bottomright: 5px, @bottomleft: 5px) { 
 	-webkit-border-radius: @topleft @topright @bottomright @bottomleft;
 	-moz-border-radius: @topleft @topright @bottomright @bottomleft;
@@ -31,19 +36,13 @@
 	width: @width;
 }
 
-.clearFix() { 
-	&:before, &:after { 
-		content: "";
-		display: table;
-	}
-	&:after { 
-		clear: both !important;
-	}
-	zoom: 1;
-}
-
 .debug(@color: red) { 
 	background: @color;
+}
+
+.divider(@color: @default) { 
+	border-top: 1px solid @color;
+	clear: both;
 }
 
 .gradient-horizontal(@from, @to) {

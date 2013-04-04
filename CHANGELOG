@@ -1,74 +1,92 @@
 { 
 	Project:  CodeKit Kickoff,
-	Author:   mike@thehivemedia.com,
-	Version:  1.2.5,
-	Updated:  04.02.13
+	Author:   @mlesher,
+	Version:  1.3.0,
+	Updated:  04.04.13
 }
 
-01.09.13 v1.0.1: Initial Release
+04.04.13 v1.3.0:
+	NEW JS: Inclusion of the html5shiv.js (https://code.google.com/p/html5shiv) helper
+	NEW JS: Inclusion of the app.listeners() method for application kickoff
+	NEW JS: Inclusion of the app.settings object, which includes Application Name, Version and Google Analytics ID
+	NEW JS: Creation of build/js/libraries.js for managing all included JS libaries and corresponding compiled output (app/_/js/libraries.min.js)
+	NEW LESS: Creation of less/libraries.less for managing all included CSS/LESS libaries (imported by app.less)
+	NEW LESS: Inclusion of the .hide-text class for managing text/image replacement
+	NEW LESS: Inclusion of the .flexibile image class for scaling the image	
+	NEW LESS: Inclusion of the .divider() mixin within custom-mixins	
+	Update to header.kit for html5shiv
+	Update to footer.kit for inclusion of libraries.min.js reference
+	Update to footer.kit for inclusion of the Google Analytics script (including reference to app.settings.ga_analytics object)
+	Update to defaults.less for and update to the .clear class in favor of the Micro Clearfix attributes		
+	Removal of jQuery Mobile from the core scaffolding in favor of more responsive development
+	Removal of the clearFix() mixin, in favor of the .clear class, as clearFix() was not technically a mixin
+	Removal of the defaults.less hr styling in favor of the .divider class
+	General cleanup of code, documentation, etc. for the above changes.
 
-01.17.13 v1.0.2: 
-	Updates to jQuery Library for 1.9.0 Release
+04.02.13 v1.2.5:
+	Update to Bootstrap v2.3.1
+	Update to documentation
 
-01.17.13 v1.0.3: 
-	Minor tweaks to documentation
-	Moved reference to app.min.js from kits/partials/header.kit to kits/partials/footer.kit for faster page loading
-	Moved reference to the Viewport div ID from kits/partials/header.kit to the kits/index.kit
-	Moved reference to the Viewport close div ID from kits/partials/footer.kit to the kits/index.kit
-	
-01.17.13 v1.0.4: 
-	Fixed error in the build/less/globals/fonts.less file where the size value was not being applied.
-	
-01.18.13 v1.0.5: 
-	Update to build/less/globals/colors.less to include base, highlight and accent variables for easy switching of themes
-	
-01.23.13 v1.0.6: 
-	Automatic Inclusion of Twitter Bootstrap, jQuery & Font Awesome
-	Update to Font Awesome 3.0.2
-	Update to Normalize CSS 2.0.1
-	
-02.12.13 v1.0.7: 
-	Update to jQuery 1.9.1
-	Update to Twitter Bootstrap 2.3.0
-	
-02.12.13 v1.0.8: 
-	Updates to ALL library folder/file naming conventions for easier managment and determination of version (i.e. /lib/jquery/1.9.1/jquery.min.js)
-	Updates to referential files for handling the new library naming convensions
-	Update to include a placeholder for Mobile Specific styles /build/less/partials/mobile.less
-	Update to /build/less/app.less to include the new mobile.less file
-	
-02.13.13 v1.0.9: 
-	Minor tweaks to mixins.less and fonts.less
-	
-02.13.13 v1.1.0: 
-	NEW: Added LessHat to default lib set for access to convenient LESS mixins
-	Updates to mixins.less for removal of redundant (to LessHat) mixins
-	Rename of mixins.less to custom-mixins.less
-	
-02.19.13 v1.1.1: 
-	Updates to custom-mixins.less to add in new valuable mixins AND the ability to pass in LESS variables to most mixins. This is currently not a feature of many mixins with LESS Hat.
-	
-02.20.13 v1.2.0: 
-	Removed /html and moved index.html to /app -> Updated the CodeKit path for .kit files
-	Added app/_ directory and moved the css, img and js production files/folders within it -> Updated the corresponding CodeKit paths
-	Moved the lib directory within the /app directory -> Updated app.less file accordingly
-
-02.20.13 v1.2.1: 
-	Changed the customFont mixin (build/less/globals/fonts.less) mixin to custom-font for consistency with the other mixins
-	
-02.21.13 v1.2.2: 	
-	Changed the textShadow mixin (build/less/globals/fonts.less) mixin to text-shadow for consistency with the other mixins
-
-02.26.13 v1.2.3: 	
-	Updated jQuery Mobile for version 1.3.0 release: http://jquerymobile.com/blog/2013/02/20/jquery-mobile-1-3-0-released
-	
 03.06.13 v1.2.4:
 	Added app/_/img/theme directory for segretating theme-based images into their own location
 	Updated build/less/app.less for referencing global LESS variable @img-url to reference the new img/theme path
 	Updated build/less/globals/colors.less to include @base, @highlight and @accent variables
 	Added new parameters to the "a" reference within the build/less/globals/defaults.less for handling hover/focus by default
 	Added hr parameter to the build/less/globals/defaults.less file for more control over the hr tag's style
-	
-04.02.13 v1.2.5:
-	Update to Bootstrap v2.3.1
-	Update to documentation
+
+02.26.13 v1.2.3: 	
+	Updated jQuery Mobile for version 1.3.0 release: http://jquerymobile.com/blog/2013/02/20/jquery-mobile-1-3-0-released
+
+02.21.13 v1.2.2: 	
+	Changed the textShadow mixin (build/less/globals/fonts.less) mixin to text-shadow for consistency with the other mixins
+
+02.20.13 v1.2.1: 
+	Changed the customFont mixin (build/less/globals/fonts.less) mixin to custom-font for consistency with the other mixins
+
+02.20.13 v1.2.0: 
+	Removed /html and moved index.html to /app -> Updated the CodeKit path for .kit files
+	Added app/_ directory and moved the css, img and js production files/folders within it -> Updated the corresponding CodeKit paths
+	Moved the lib directory within the /app directory -> Updated app.less file accordingly
+
+02.19.13 v1.1.1: 
+	Updates to custom-mixins.less to add in new valuable mixins AND the ability to pass in LESS variables to most mixins.
+
+02.13.13 v1.1.0: 
+	NEW: Added LessHat to default lib set for access to convenient LESS mixins
+	Updates to mixins.less for removal of redundant (to LessHat) mixins
+	Rename of mixins.less to custom-mixins.less
+
+02.13.13 v1.0.9: 
+	Minor tweaks to mixins.less and fonts.less
+
+02.12.13 v1.0.8: 
+	Updates to ALL library folder/file naming conventions for easier managment and determination of version (i.e. /lib/jquery/1.9.1/jquery.min.js)
+	Updates to referential files for handling the new library naming convensions
+	Update to include a placeholder for Mobile Specific styles /build/less/partials/mobile.less
+	Update to /build/less/app.less to include the new mobile.less file
+
+02.12.13 v1.0.7: 
+	Update to jQuery 1.9.1
+	Update to Twitter Bootstrap 2.3.0
+
+01.23.13 v1.0.6: 
+	Automatic Inclusion of Twitter Bootstrap, jQuery & Font Awesome
+	Update to Font Awesome 3.0.2
+	Update to Normalize CSS 2.0.1
+
+01.18.13 v1.0.5: 
+	Update to build/less/globals/colors.less to include base, highlight and accent variables for easy switching of themes
+
+01.17.13 v1.0.4: 
+	Fixed error in the build/less/globals/fonts.less file where the size value was not being applied.
+
+01.17.13 v1.0.3: 
+	Minor tweaks to documentation
+	Moved reference to app.min.js from kits/partials/header.kit to kits/partials/footer.kit for faster page loading
+	Moved reference to the Viewport div ID from kits/partials/header.kit to the kits/index.kit
+	Moved reference to the Viewport close div ID from kits/partials/footer.kit to the kits/index.kit
+
+01.17.13 v1.0.2: 
+	Updates to jQuery Library for 1.9.0 Release
+
+01.09.13 v1.0.1: Initial Release

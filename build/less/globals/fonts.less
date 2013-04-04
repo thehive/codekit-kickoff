@@ -1,16 +1,28 @@
+// Fonts
+// Description: Add custom fonts here if importing and assign them via the @font-primary, @font-secondary variables for use with the .custom-font mixin
+
+
+// Step One: If importing from an external source (i.e. Google Fonts), declare them here when using @import
+
 // Font Docs: http://www.google.com/webfonts#UsePlace:use/Collection:Raleway
 @import url('http://fonts.googleapis.com/css?family=Raleway');
 
 // Font Docs: http://www.google.com/webfonts#UsePlace:use/Collection:Oswald
 @import url('http://fonts.googleapis.com/css?family=Oswald');
 
+
+// Step Two: Declare a Primary and Secondary font selection here
+
 @font-primary: 'Oswald';
 @font-secondary: 'Raleway';
+
+
+// Custom Font Mixin for easy declaration of customized fonts on elements
 
 .custom-font(@color:@default,@family:@font-primary,@size:14px,@style:normal,@weight:400) { 
 	// Organized alphabetically (color -> weight)
 	color: @color;
-	font-family: @family, sans-serif;
+	font-family: @family;
 	font-size: @size;
 	font-style: @style;
 	font-weight: @weight;
