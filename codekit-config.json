@@ -13,17 +13,46 @@
       "outputAbbreviatedPath" : "\/app\/js\/bootstrap.min.min.js",
       "fileType" : 64
     },
-    "\/app\/lib\/font-awesome\/3.0.2\/css\/font-awesome.min.css" : {
+    "\/app\/lib\/font-awesome\/3.1.1\/css\/font-awesome.min.css" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/app\/lib\/font-awesome\/3.0.2\/css\/font-awesome.min.css",
+      "inputAbbreviatedPath" : "\/app\/lib\/font-awesome\/3.1.1\/css\/font-awesome.min.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/build\/less\/globals\/colors.less" : {
+    "\/app\/index.html" : {
       "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/app\/index.html",
+      "outputAbbreviatedPath" : "\/No Output Path",
+      "fileType" : 2048
+    },
+    "\/app\/lib\/normalize\/2.1.2\/normalize.css" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/app\/lib\/normalize\/2.1.2\/normalize.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/app\/lib\/jquery\/2.0.0\/jquery.min.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/app\/lib\/jquery\/2.0.0\/jquery.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 2,
+      "outputAbbreviatedPath" : "\/app\/js\/jquery.min.min.js",
+      "fileType" : 64
+    },
+    "\/build\/less\/globals\/colors.less" : {
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
@@ -35,25 +64,14 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/app\/index.html" : {
-      "ignoreWasSetByUser" : 0,
+    "\/app\/lib\/bootstrap\/2.3.1\/css\/bootstrap-responsive.min.css" : {
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 0,
+      "hidden" : 1,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/app\/index.html",
+      "inputAbbreviatedPath" : "\/app\/lib\/bootstrap\/2.3.1\/css\/bootstrap-responsive.min.css",
       "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/build\/js\/app.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 1,
-      "inputAbbreviatedPath" : "\/build\/js\/app.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 2,
-      "outputAbbreviatedPath" : "\/app\/_\/js\/app.min.js",
-      "fileType" : 64
+      "fileType" : 16
     },
     "\/app\/lib\/bootstrap\/2.3.1\/img\/glyphicons-halflings.png" : {
       "ignoreWasSetByUser" : 0,
@@ -66,30 +84,19 @@
       "initialSize" : 12764,
       "fileType" : 8192
     },
-    "\/app\/lib\/lesshat\/1.1.1\/lesshat.less" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/app\/lib\/lesshat\/1.1.1\/lesshat.less",
-      "outputStyle" : 2,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/app\/css\/lesshat.css",
-      "strictImports" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
-    },
-    "\/app\/lib\/bootstrap\/2.3.1\/css\/bootstrap.min.css" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/app\/lib\/bootstrap\/2.3.1\/css\/bootstrap.min.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
+    "\/build\/js\/app.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 1,
+      "inputAbbreviatedPath" : "\/build\/js\/app.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 2,
+      "outputAbbreviatedPath" : "\/app\/_\/js\/app.min.js",
+      "fileType" : 64
     },
     "\/build\/kits\/partials\/header.kit" : {
-      "ignoreWasSetByUser" : 0,
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
@@ -110,18 +117,16 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/build\/less\/partials\/viewport.less" : {
+    "\/build\/js\/libraries.js" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/less\/partials\/viewport.less",
-      "outputStyle" : 2,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/app\/css\/viewport.css",
-      "strictImports" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 1,
+      "inputAbbreviatedPath" : "\/build\/js\/libraries.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 2,
+      "outputAbbreviatedPath" : "\/app\/_\/js\/libraries.min.js",
+      "fileType" : 64
     },
     "\/app\/_\/js\/app.min.js" : {
       "ignoreWasSetByUser" : 0,
@@ -134,19 +139,8 @@
       "outputAbbreviatedPath" : "\/app\/js\/app.min.min.js",
       "fileType" : 64
     },
-    "\/build\/js\/libraries.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 1,
-      "inputAbbreviatedPath" : "\/build\/js\/libraries.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 2,
-      "outputAbbreviatedPath" : "\/app\/_\/js\/libraries.min.js",
-      "fileType" : 64
-    },
     "\/build\/less\/globals\/fonts.less" : {
-      "ignoreWasSetByUser" : 0,
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
@@ -158,14 +152,18 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/app\/lib\/bootstrap\/2.3.1\/css\/bootstrap-responsive.min.css" : {
+    "\/build\/less\/partials\/viewport.less" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/app\/lib\/bootstrap\/2.3.1\/css\/bootstrap-responsive.min.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
+      "inputAbbreviatedPath" : "\/build\/less\/partials\/viewport.less",
+      "outputStyle" : 2,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/app\/css\/viewport.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
     },
     "\/app\/lib\/bootstrap\/2.3.1\/img\/glyphicons-halflings-white.png" : {
       "ignoreWasSetByUser" : 0,
@@ -177,6 +175,15 @@
       "outputAbbreviatedPath" : "\/app\/lib\/bootstrap\/2.3.1\/img\/glyphicons-halflings-white.png",
       "initialSize" : 8777,
       "fileType" : 8192
+    },
+    "\/app\/lib\/bootstrap\/2.3.1\/css\/bootstrap.min.css" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/app\/lib\/bootstrap\/2.3.1\/css\/bootstrap.min.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/app\/_\/js\/libraries.min.js" : {
       "ignoreWasSetByUser" : 0,
@@ -190,7 +197,7 @@
       "fileType" : 64
     },
     "\/build\/less\/globals\/defaults.less" : {
-      "ignoreWasSetByUser" : 0,
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
@@ -225,7 +232,7 @@
       "fileType" : 65536
     },
     "\/build\/kits\/partials\/footer.kit" : {
-      "ignoreWasSetByUser" : 0,
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
@@ -236,7 +243,7 @@
     "\/app\/lib\/jquery\/1.9.1\/jquery.min.js" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/app\/lib\/jquery\/1.9.1\/jquery.min.js",
       "outputStyle" : 1,
@@ -244,17 +251,8 @@
       "outputAbbreviatedPath" : "\/app\/js\/jquery.min.min.js",
       "fileType" : 64
     },
-    "\/app\/lib\/normalize\/2.1.0\/normalize.css" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/app\/lib\/normalize\/2.1.0\/normalize.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
     "\/build\/less\/partials\/mobile.less" : {
-      "ignoreWasSetByUser" : 0,
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
@@ -266,8 +264,17 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
+    "\/app\/lib\/font-awesome\/3.1.1\/css\/font-awesome-ie7.min.css" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/app\/lib\/font-awesome\/3.1.1\/css\/font-awesome-ie7.min.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
     "\/build\/less\/globals\/custom-mixins.less" : {
-      "ignoreWasSetByUser" : 0,
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
@@ -285,27 +292,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/app\/_\/css\/app.min.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/app\/lib\/html5shiv\/html5shiv.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/app\/lib\/html5shiv\/html5shiv.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/app\/js\/html5shiv.min.js",
-      "fileType" : 64
-    },
-    "\/app\/lib\/font-awesome\/3.0.2\/css\/font-awesome-ie7.min.css" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/app\/lib\/font-awesome\/3.0.2\/css\/font-awesome-ie7.min.css",
-      "outputAbbreviatedPath" : "No Output Path",
+      "outputAbbreviatedPath" : "\/No Output Path",
       "fileType" : 16
     }
   },
@@ -471,7 +458,6 @@
       "confusion" : 0,
       "evil" : 0,
       "on" : 0,
-      "cap" : 0,
       "windows" : 0,
       "devel" : 0,
       "rhino" : 0,

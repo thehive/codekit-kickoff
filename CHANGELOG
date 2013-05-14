@@ -1,10 +1,19 @@
 { 
 	Project:  CodeKit Kickoff,
 	Author:   @mlesher,
-	Version:  1.3.0,
-	Updated:  04.04.13
+	Version:  1.3.1,
+	Updated:  05.14.13
 }
 
+05.14.13 v1.3.1:
+	Added font-family reference to the body attribute within the defaults.less file for IE glitches
+	Version Update to Normalize CSS (v2.1.2)
+	Version Update to Font Awesome (v3.1.1)
+	Version Include of jQuery v2.0.0 (***default still v1.9.1***)
+	Removal of LESSHat in favor of custom-mixins.less
+	Removal of HTML5Shiv due to infrequency of use
+	Update to header.kit for removal of HTML5Shiv
+	
 04.04.13 v1.3.0:
 	NEW JS: Inclusion of the html5shiv.js (https://code.google.com/p/html5shiv) helper
 	NEW JS: Inclusion of the app.listeners() method for application kickoff
