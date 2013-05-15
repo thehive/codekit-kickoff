@@ -9,13 +9,12 @@ Full documentation and structure of the scaffolding can be found at [CodeKit Kic
 
 ## Acknowledgement
 
-CodeKit, jQuery, Twitter Bootstrap, Font-Awesome, Normalize.css, HTML5shiv and LESShat can all be used within this project. I find these frameworks and libraries invaluable to my daily work. I thank everyone who has contributed to them, since they've saved me countless hours.
+CodeKit, jQuery, Bootstrap, Font-Awesome and Normalize.css can all be used within this project. I find these frameworks and libraries invaluable to my daily work. I thank everyone who has contributed to them, since they've saved me countless hours.
 
 To that end, each of these frameworks and libraries have their own Licensing Restrictions. It is your responsibility to be aware of them.
 
 ## Contact
 
-- Email: [mike@thehivemedia.com](mailto:mike@thehivemedia.com)
 - Twitter: [@mlesher](http://www.twitter.com/mlesher)
 - Facebook: [michaellesher](http://www.facebook.com/michaellesher)
 

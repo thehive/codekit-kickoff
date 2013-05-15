@@ -40,17 +40,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/app\/lib\/jquery\/2.0.0\/jquery.min.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/app\/lib\/jquery\/2.0.0\/jquery.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 2,
-      "outputAbbreviatedPath" : "\/app\/js\/jquery.min.min.js",
-      "fileType" : 64
-    },
     "\/build\/less\/globals\/colors.less" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
@@ -64,12 +53,32 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
+    "\/app\/lib\/jquery\/2.0.0\/jquery.min.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/app\/lib\/jquery\/2.0.0\/jquery.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 2,
+      "outputAbbreviatedPath" : "\/app\/js\/jquery.min.min.js",
+      "fileType" : 64
+    },
     "\/app\/lib\/bootstrap\/2.3.1\/css\/bootstrap-responsive.min.css" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/app\/lib\/bootstrap\/2.3.1\/css\/bootstrap-responsive.min.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/app\/lib\/bootstrap\/2.3.1\/css\/bootstrap.min.css" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/app\/lib\/bootstrap\/2.3.1\/css\/bootstrap.min.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
@@ -83,17 +92,6 @@
       "outputAbbreviatedPath" : "\/app\/lib\/bootstrap\/2.3.1\/img\/glyphicons-halflings.png",
       "initialSize" : 12764,
       "fileType" : 8192
-    },
-    "\/build\/js\/app.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 1,
-      "inputAbbreviatedPath" : "\/build\/js\/app.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 2,
-      "outputAbbreviatedPath" : "\/app\/_\/js\/app.min.js",
-      "fileType" : 64
     },
     "\/build\/kits\/partials\/header.kit" : {
       "ignoreWasSetByUser" : 1,
@@ -128,16 +126,18 @@
       "outputAbbreviatedPath" : "\/app\/_\/js\/libraries.min.js",
       "fileType" : 64
     },
-    "\/app\/_\/js\/app.min.js" : {
-      "ignoreWasSetByUser" : 0,
+    "\/build\/less\/partials\/viewport.less" : {
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 0,
+      "hidden" : 1,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/app\/_\/js\/app.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 2,
-      "outputAbbreviatedPath" : "\/app\/js\/app.min.min.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/build\/less\/partials\/viewport.less",
+      "outputStyle" : 2,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/app\/css\/viewport.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
     },
     "\/build\/less\/globals\/fonts.less" : {
       "ignoreWasSetByUser" : 1,
@@ -152,18 +152,16 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/build\/less\/partials\/viewport.less" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/less\/partials\/viewport.less",
-      "outputStyle" : 2,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/app\/css\/viewport.css",
-      "strictImports" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
+    "\/build\/js\/app.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 1,
+      "inputAbbreviatedPath" : "\/build\/js\/app.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 2,
+      "outputAbbreviatedPath" : "\/app\/_\/js\/app.min.js",
+      "fileType" : 64
     },
     "\/app\/lib\/bootstrap\/2.3.1\/img\/glyphicons-halflings-white.png" : {
       "ignoreWasSetByUser" : 0,
@@ -176,14 +174,16 @@
       "initialSize" : 8777,
       "fileType" : 8192
     },
-    "\/app\/lib\/bootstrap\/2.3.1\/css\/bootstrap.min.css" : {
-      "ignoreWasSetByUser" : 1,
+    "\/app\/_\/js\/app.min.js" : {
+      "ignoreWasSetByUser" : 0,
       "ignore" : 1,
-      "hidden" : 1,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/app\/lib\/bootstrap\/2.3.1\/css\/bootstrap.min.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
+      "inputAbbreviatedPath" : "\/app\/_\/js\/app.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 2,
+      "outputAbbreviatedPath" : "\/app\/js\/app.min.min.js",
+      "fileType" : 64
     },
     "\/app\/_\/js\/libraries.min.js" : {
       "ignoreWasSetByUser" : 0,
