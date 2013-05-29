@@ -1,9 +1,16 @@
 { 
 	Project:  CodeKit Kickoff,
 	Author:   @mlesher,
-	Version:  1.3.1,
-	Updated:  05.14.13
+	Version:  1.3.2,
+	Updated:  05.29.13
 }
+
+05.29.13 v1.3.2:
+	Removed Galeway font from default kit
+	ADDED: Source Sans Pro as default font
+	Updated: jQuery 1.9.1 -> 1.10.0
+	Updated: jQuery 2.0.0 -> 2.0.1
+	Updated: Bootstrap 2.3.1 -> 2.3.2
 
 05.14.13 v1.3.1:
 	Added font-family reference to the body attribute within the defaults.less file for IE glitches
