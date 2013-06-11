@@ -11,18 +11,21 @@ $(function() {
 var app = { 
 
 	init: function() { 
-		// this.listeners();
+		// Kick off the listeners
+		this.listeners();		
+		// Application has been initalized
 		console.log(this.settings.name + "(v" + this.settings.version + ") Started");
 	},
 	
 	listeners: function() { 
 		// Application Listeners can be loaded here for easy configuration
+		console.log("Listening...");
 	},
 	
 	settings: { 	
 		name: "My Application",	
-		version: "1.0.0",
-		ga_analytics: "UA-XXXXXXXX"
+		url: "application_url.com",
+		version: "1.0.0"
 	}
 	
 };
