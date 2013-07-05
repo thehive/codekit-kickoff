@@ -15,8 +15,7 @@ To that end, each of these frameworks and libraries have their own Licensing Res
 
 ## Contact
 
-- Twitter: [@mlesher](http://www.twitter.com/mlesher)
-- Facebook: [michaellesher](http://www.facebook.com/michaellesher)
+- [iAmLesher](http://www.iamlesher.com)
 
 ## Project Licensing (CodeKit Kickoff ONLY)
 

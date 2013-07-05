@@ -1,9 +1,17 @@
 { 
 	Project:  CodeKit Kickoff,
-	Author:   @mlesher,
-	Version:  1.3.3,
-	Updated:  06.11.13
+	Author:   www.iamlesher.com,
+	Version:  1.3.4,
+	Updated:  07.05.13
 }
+
+07.05.13 v1.3.4:
+	ADDED favicon.ico default file to the root app folder
+	ADDED robots.txt default file to the root app folder
+	ADDED sitemap.xml default file to the root app folder
+	UPDATED Font Awesome (v3.2.1)
+	UPDATED jQuery v1 (v1.10.2)
+	UPDATED jQuery v2 (v2.0.3)	
 
 06.11.13 v1.3.3:
 	Relocated the Google Analytics request to prior to the </head> from the footer
