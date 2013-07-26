@@ -85,6 +85,14 @@
 	-o-transform: rotate(@deg);
 }
 
+.transition(@seconds:0.4s) { 
+	-moz-transition: @seconds ease;
+	-ms-transition: @seconds ease;
+	-o-transition:@seconds ease;
+	transition: @seconds ease;
+	-webkit-transition: @seconds ease;	
+}
+
 .transparent(@op: 0.5, @ieop: 50) {
 	filter: alpha(opacity=@ieop);
 	-moz-opacity:@op;

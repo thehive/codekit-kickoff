@@ -1,10 +1,16 @@
 { 
 	Project:  CodeKit Kickoff,
 	Author:   www.iamlesher.com,
-	Version:  1.3.4,
-	Updated:  07.05.13
+	Version:  1.3.5,
+	Updated:  07.26.13
 }
 
+07.26.13 v1.3.5:
+	ADDED .transition() mixing within the custom-mixin less file
+	ADDED Tablet and Phone Media Query examples to the mobile.less file
+	ADDED "Social Colors" to the colors.less file for Social Media default colors
+	MOVED mobile.less within the /globals structure	
+	
 07.05.13 v1.3.4:
 	ADDED favicon.ico default file to the root app folder
 	ADDED robots.txt default file to the root app folder
