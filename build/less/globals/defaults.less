@@ -1,7 +1,6 @@
 // Default Styles
 // Description: Set all default general styles and classes here
 
-
 html, body { 
 	min-height: 100%; 
 	height: 100%; 
@@ -9,10 +8,11 @@ html, body {
 
 a { 
 	color: @highlight;
-	text-decoration: none; 
-	&:hover,&:focus { 
+	text-decoration: none !important;
+	.transition();
+	&:hover,&:focus {
 		color: @accent;
-	}	
+	}
 }
 
 body {

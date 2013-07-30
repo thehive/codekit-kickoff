@@ -1,7 +1,6 @@
 // Custom Mixins
 // Description: Custom Mixins for use throughout the application
 
-
 .border-radius(@topleft: 5px, @topright: 5px, @bottomright: 5px, @bottomleft: 5px) { 
 	-webkit-border-radius: @topleft @topright @bottomright @bottomleft;
 	-moz-border-radius: @topleft @topright @bottomright @bottomleft;
@@ -35,7 +34,7 @@
 	width: @width;
 }
 
-.debug(@color: red) { 
+.debug(@color: @msg-info) { 
 	background: @color;
 }
 

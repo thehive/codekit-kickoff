@@ -1,10 +1,21 @@
 { 
 	Project:  CodeKit Kickoff,
 	Author:   www.iamlesher.com,
-	Version:  1.3.5,
-	Updated:  07.26.13
+	Version:  1.4.0,
+	Updated:  07.30.13
 }
 
+07.30.13 v1.4.0:
+	UPDATED colors.less for messaging colors, removal of some default colors, unification of naming convention (hyphens vs. capitalization) and updates to the default blue scheme
+	UPDATED custom-mixins.less for .debug() mixin color. Referencing @msg-info now, instead of hard-coded "red"
+	UPDATED defaults.less "a" reference to include the new .transition() mixin, and forced the text-decoration to be none by default
+	UPDATED Bootstrap to 3 RC1 (http://getbootstrap.com)
+	REMOVED Bootstrap Glyphicon files in favor of Font Awesome
+	REMOVED Normalize CSS
+	REMOVED Library directory versioning (i.e. /lib/bootstrap/<version>/js/... in favor of simplicity /lib/bootstrap/js/...)
+	REMOVED Font Awesome non-minified versions. They weren't being referenced, but no need to keep them there.
+	REMOVED jQuery 1.10.2 in favor of v2.0.3 and as mentioned, removed the reference to /2.0.3/jquery in favor of simplification
+	
 07.26.13 v1.3.5:
 	ADDED .transition() mixing within the custom-mixin less file
 	ADDED Tablet and Phone Media Query examples to the mobile.less file

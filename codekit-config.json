@@ -2,15 +2,6 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "8317",
   "files" : {
-    "\/app\/lib\/font-awesome\/3.2.1\/css\/font-awesome.min.css" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/app\/lib\/font-awesome\/3.2.1\/css\/font-awesome.min.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
     "\/app\/index.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -19,35 +10,6 @@
       "inputAbbreviatedPath" : "\/app\/index.html",
       "outputAbbreviatedPath" : "\/No Output Path",
       "fileType" : 2048
-    },
-    "\/app\/lib\/normalize\/2.1.2\/normalize.css" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/app\/lib\/normalize\/2.1.2\/normalize.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/app\/lib\/font-awesome\/3.2.1\/css\/font-awesome.css" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/app\/lib\/font-awesome\/3.2.1\/css\/font-awesome.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/build\/js\/app.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 1,
-      "inputAbbreviatedPath" : "\/build\/js\/app.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 2,
-      "outputAbbreviatedPath" : "\/app\/_\/js\/app.min.js",
-      "fileType" : 64
     },
     "\/build\/less\/globals\/colors.less" : {
       "ieCompatibility" : 1,
@@ -66,15 +28,15 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/app\/lib\/bootstrap\/2.3.2\/js\/bootstrap.min.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/app\/lib\/bootstrap\/2.3.2\/js\/bootstrap.min.js",
+    "\/build\/js\/app.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 1,
+      "inputAbbreviatedPath" : "\/build\/js\/app.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/app\/js\/bootstrap.min.min.js",
+      "syntaxCheckerStyle" : 2,
+      "outputAbbreviatedPath" : "\/app\/_\/js\/app.min.js",
       "fileType" : 64
     },
     "\/build\/less\/globals\/mobile.less" : {
@@ -120,22 +82,16 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/build\/less\/partials\/viewport.less" : {
-      "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/build\/less\/partials\/viewport.less",
-      "outputAbbreviatedPath" : "\/app\/css\/viewport.css",
-      "outputPathIsSetByUser" : 0,
-      "strictUnits" : 0,
-      "relativeURLS" : 0,
-      "ignore" : 1,
-      "strictImports" : 0,
-      "ignoreWasSetByUser" : 1,
-      "shouldRunBless" : 1,
-      "hidden" : 1,
-      "strictMath" : 0,
-      "outputStyle" : 2,
-      "fileType" : 1,
-      "debugStyle" : 0
+    "\/build\/js\/libraries.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 1,
+      "inputAbbreviatedPath" : "\/build\/js\/libraries.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 2,
+      "outputAbbreviatedPath" : "\/app\/_\/js\/libraries.min.js",
+      "fileType" : 64
     },
     "\/app\/_\/js\/app.min.js" : {
       "ignoreWasSetByUser" : 0,
@@ -147,26 +103,6 @@
       "syntaxCheckerStyle" : 2,
       "outputAbbreviatedPath" : "\/app\/js\/app.min.min.js",
       "fileType" : 64
-    },
-    "\/app\/lib\/font-awesome\/3.2.1\/css\/font-awesome-ie7.min.css" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/app\/lib\/font-awesome\/3.2.1\/css\/font-awesome-ie7.min.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/app\/lib\/bootstrap\/2.3.2\/img\/glyphicons-halflings.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/app\/lib\/bootstrap\/2.3.2\/img\/glyphicons-halflings.png",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/app\/lib\/bootstrap\/2.3.2\/img\/glyphicons-halflings.png",
-      "initialSize" : 12764,
-      "fileType" : 8192
     },
     "\/build\/less\/globals\/fonts.less" : {
       "ieCompatibility" : 1,
@@ -185,15 +121,32 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/build\/js\/libraries.js" : {
+    "\/build\/less\/partials\/viewport.less" : {
+      "ieCompatibility" : 1,
+      "inputAbbreviatedPath" : "\/build\/less\/partials\/viewport.less",
+      "outputAbbreviatedPath" : "\/app\/css\/viewport.css",
+      "outputPathIsSetByUser" : 0,
+      "strictUnits" : 0,
+      "relativeURLS" : 0,
+      "ignore" : 1,
+      "strictImports" : 0,
+      "ignoreWasSetByUser" : 1,
+      "shouldRunBless" : 1,
+      "hidden" : 1,
+      "strictMath" : 0,
+      "outputStyle" : 2,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+    "\/app\/lib\/bootstrap\/js\/bootstrap.min.js" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
-      "outputPathIsSetByUser" : 1,
-      "inputAbbreviatedPath" : "\/build\/js\/libraries.js",
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/app\/lib\/bootstrap\/js\/bootstrap.min.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 2,
-      "outputAbbreviatedPath" : "\/app\/_\/js\/libraries.min.js",
+      "outputAbbreviatedPath" : "\/app\/js\/bootstrap.min.min.js",
       "fileType" : 64
     },
     "\/app\/_\/js\/libraries.min.js" : {
@@ -259,12 +212,21 @@
       "outputAbbreviatedPath" : "\/html\/footer.html",
       "fileType" : 65536
     },
-    "\/app\/lib\/jquery\/1.10.2\/jquery.min.js" : {
+    "\/app\/lib\/bootstrap\/css\/bootstrap.min.css" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/app\/lib\/bootstrap\/css\/bootstrap.min.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/app\/lib\/jquery\/jquery.min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/app\/lib\/jquery\/1.10.2\/jquery.min.js",
+      "inputAbbreviatedPath" : "\/app\/lib\/jquery\/jquery.min.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 2,
       "outputAbbreviatedPath" : "\/app\/js\/jquery.min.min.js",
@@ -287,15 +249,6 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/app\/lib\/bootstrap\/2.3.2\/css\/bootstrap-responsive.min.css" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/app\/lib\/bootstrap\/2.3.2\/css\/bootstrap-responsive.min.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
     "\/app\/_\/css\/app.min.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -305,59 +258,37 @@
       "outputAbbreviatedPath" : "\/No Output Path",
       "fileType" : 16
     },
-    "\/app\/lib\/font-awesome\/3.2.1\/css\/font-awesome-ie7.css" : {
+    "\/app\/lib\/font-awesome\/css\/font-awesome.min.css" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/app\/lib\/font-awesome\/3.2.1\/css\/font-awesome-ie7.css",
+      "inputAbbreviatedPath" : "\/app\/lib\/font-awesome\/css\/font-awesome.min.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/app\/lib\/bootstrap\/2.3.2\/css\/bootstrap.min.css" : {
+    "\/app\/lib\/font-awesome\/css\/font-awesome-ie7.min.css" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/app\/lib\/bootstrap\/2.3.2\/css\/bootstrap.min.css",
+      "inputAbbreviatedPath" : "\/app\/lib\/font-awesome\/css\/font-awesome-ie7.min.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
-    },
-    "\/app\/lib\/bootstrap\/2.3.2\/img\/glyphicons-halflings-white.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/app\/lib\/bootstrap\/2.3.2\/img\/glyphicons-halflings-white.png",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/app\/lib\/bootstrap\/2.3.2\/img\/glyphicons-halflings-white.png",
-      "initialSize" : 8777,
-      "fileType" : 8192
-    },
-    "\/app\/lib\/jquery\/2.0.3\/jquery.min.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/app\/lib\/jquery\/2.0.3\/jquery.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 2,
-      "outputAbbreviatedPath" : "\/app\/js\/jquery.min.min.js",
-      "fileType" : 64
     }
   },
   "manualImportLinks" : [
     {
       "type" : 0,
       "position" : 0,
-      "linkedFileAbbreviatedPath" : "\/app\/lib\/jquery\/1.10.2\/jquery.min.js",
+      "linkedFileAbbreviatedPath" : "\/app\/lib\/jquery\/jquery.min.js",
       "baseFileAbbreviatedPath" : "\/build\/js\/libraries.js",
       "followForSyntaxChecking" : 1
     },
     {
       "type" : 0,
       "position" : 1,
-      "linkedFileAbbreviatedPath" : "\/app\/lib\/bootstrap\/2.3.2\/js\/bootstrap.min.js",
+      "linkedFileAbbreviatedPath" : "\/app\/lib\/bootstrap\/js\/bootstrap.min.js",
       "baseFileAbbreviatedPath" : "\/build\/js\/libraries.js",
       "followForSyntaxChecking" : 1
     }
