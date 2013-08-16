@@ -7,11 +7,11 @@ html, body {
 }
 
 a { 
-	color: @highlight;
+	color: @base;
 	text-decoration: none !important;
 	.transition();
 	&:hover,&:focus {
-		color: @accent;
+		color: @highlight;
 	}
 }
 
@@ -33,11 +33,6 @@ body {
 	*zoom: 1;
 }
 
-h1, h2, h3, h4, h5, h6 { 
-	margin: 0;
-	padding: 0;
-}
-
 .hide-text { 
 	text-indent: 100%;
 	white-space: nowrap;
@@ -46,7 +41,7 @@ h1, h2, h3, h4, h5, h6 {
 
 img { 
 	border: none; 
-	&.flexible { 
+	&.responsive { 
 		max-width: 100%;
 		height: auto;	
 	}

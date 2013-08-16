@@ -25,21 +25,81 @@
     </head>
     <body>    	
     	<div id="viewport">
-    	
-			<h1>Welcome to CodeKit Kickoff</h1>
+
+			<div class="container">
 			
-			<p>
-				This viewport currently has a .debug() mixin applied to it. Remove it from 
-				"build/less/partials/viewport.less" to begin.
-			</p>
-			
-			<p>
-				Happy coding...
-			</p>
+				<h2>CodeKit Kickoff</h2>
+				<p class="lead">Based on the Twitter Bootstrap basic grid layouts to get you familiar with building within the Bootstrap grid system.</p>				
+
+				<h4>Three equal columns</h4>
+				<div class="row">
+					<div class="col-lg-4">.col-lg-4</div>
+					<div class="col-lg-4">.col-lg-4</div>
+					<div class="col-lg-4">.col-lg-4</div>
+				</div>
+
+				<h4>Three unequal columns</h4>
+				<div class="row">
+					<div class="col-lg-3">.col-lg-3</div>
+					<div class="col-lg-6">.col-lg-6</div>
+					<div class="col-lg-3">.col-lg-3</div>
+				</div>
+
+				<h4>Two columns</h4>
+				<div class="row">
+					<div class="col-lg-8">.col-lg-8</div>
+					<div class="col-lg-4">.col-lg-4</div>
+				</div>
+
+				<h4>Full width, single column</h4>
+				<p class="text-warning">No grid classes are necessary for full-width elements.</p>
+
+				<h4>Two columns with two nested columns</h4>
+				<div class="row">
+					<div class="col-lg-8">
+						.col-lg-8
+						<div class="row">
+							<div class="col-lg-6">.col-lg-6</div>
+							<div class="col-lg-6">.col-lg-6</div>
+						</div>
+					</div>
+					<div class="col-lg-4">.col-lg-4</div>
+				</div>
+
+				<h4>Mixed: mobile and desktop</h4>
+				<div class="row">
+					<div class="col-12 col-lg-8">.col-12 .col-lg-8</div>
+					<div class="col-6 col-lg-4">.col-6 .col-lg-4</div>
+				</div>
+				<div class="row">
+					<div class="col-6 col-lg-4">.col-6 .col-lg-4</div>
+					<div class="col-6 col-lg-4">.col-6 .col-lg-4</div>
+					<div class="col-6 col-lg-4">.col-6 .col-lg-4</div>
+				</div>
+				<div class="row">
+					<div class="col-6 col-lg-6">.col-6 .col-lg-6</div>
+					<div class="col-6 col-lg-6">.col-6 .col-lg-6</div>
+				</div>
+
+				<h4>Mixed: mobile, tablet, and desktop</h4>
+				<div class="row">
+					<div class="col-12 col-sm-8 col-lg-8">.col-12 .col-lg-8</div>
+					<div class="col-6 col-sm-4 col-lg-4">.col-6 .col-lg-4</div>
+				</div>
+				<div class="row">
+					<div class="col-6 col-sm-4 col-lg-4">.col-6 .col-lg-4</div>
+					<div class="col-6 col-sm-4 col-lg-4">.col-6 .col-lg-4</div>
+					<div class="col-6 col-sm-4 col-lg-4">.col-6 .col-lg-4</div>
+				</div>
+				<div class="row">
+					<div class="col-6 col-sm-6 col-lg-6">.col-6 .col-lg-6</div>
+					<div class="col-6 col-sm-6 col-lg-6">.col-6 .col-lg-6</div>
+				</div>
+
+			</div>
 
     	</div>
     	
-		<script src="_/js/libraries.min.js"></script>
 		<script src="_/js/app.min.js"></script>	
     </body>
 </html>		

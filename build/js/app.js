@@ -17,7 +17,7 @@ var app = {
 		console.log(this.settings.name + "(v" + this.settings.version + ") Started");
 	},
 	
-	listeners: function() { 
+	listeners: function() {
 		// Application Listeners can be loaded here for easy configuration
 		console.log("Listening...");
 	},

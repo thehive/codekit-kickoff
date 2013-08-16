@@ -1,9 +1,23 @@
 { 
 	Project:  CodeKit Kickoff,
 	Author:   www.iamlesher.com,
-	Version:  1.4.0,
-	Updated:  07.30.13
+	Version:  1.5.0,
+	Updated:  08.16.13
 }
+
+08.16.13 v1.5.0:
+	Overall simplicity throughout the codebase and unification around Bootstrap 3 (Updated to RC2)
+	MOVED /libs folder within the build folder for compiling of all assets into tidy app.min.css and app.min.js files. No longer requiring multiple trips to the server for several files
+	ADDED app/_/font folder to hold the Font Awesome fonts. This was the only lib dependency I couldn't move. Naturally, I removed the /font directory from the font-awesome directory
+	ADDED new colors to the colors.less file, as well as a reference swatchs from FlatUI (http://designmodo.github.io/Flat-UI/).
+	UPDATED build/less/libraries for referencing the library css files as (less) to compile them into the output app.min.css file
+	UPDATED index.kit to include the "Basic Grid Layout" from Bootstrap for reference to the grid system
+	UPDATED app.js to import jquery.min.js and bootstrap.min.js in lieu of being imported via libraries.js
+	UPDATED custom-font mixin to reference "font-" prefixed variables for consistency with their CSS counterparts
+	REMOVED libraries.js in order to decrease the amount of trips to the server for the JS resources
+	REMOVED	app/_/img/theme in favor of app/_/img - no real value seen over the past few months -- updated @img-url to reflect this
+	REMOVED	Font Awesome IE7 support. 
+	REMOVED the margin:0; padding:0; references for h1 -> h6 within the defaults.less file for inheriting the Bootstrap default margin/padding
 
 07.30.13 v1.4.0:
 	UPDATED colors.less for messaging colors, removal of some default colors, unification of naming convention (hyphens vs. capitalization) and updates to the default blue scheme

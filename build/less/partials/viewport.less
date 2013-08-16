@@ -1,5 +1,25 @@
 // Viewport Primary Styles
 
 #viewport {
-	.debug();
+	.container {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	h4 {
+		margin-top: 25px;
+	}
+	.row {
+		margin-bottom: 20px;
+	}
+	.row .row {
+		margin-top: 10px;
+		margin-bottom: 0;
+	}
+	[class*="col-lg-"] {
+		padding-top: 15px;
+		padding-bottom: 15px;
+		background-color: @light-grey;
+		border: 1px solid @mid-grey;
+	}
 }
