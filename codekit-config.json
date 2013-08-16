@@ -23,8 +23,8 @@
       "fileType" : 2048
     },
     "\/build\/lib\/bootstrap\/js\/bootstrap.min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/build\/lib\/bootstrap\/js\/bootstrap.min.js",
@@ -115,7 +115,7 @@
       "strictImports" : 0,
       "ignoreWasSetByUser" : 0,
       "shouldRunBless" : 1,
-      "hidden" : 0,
+      "hidden" : 1,
       "strictMath" : 0,
       "outputStyle" : 2,
       "fileType" : 1,
@@ -150,8 +150,8 @@
       "debugStyle" : 0
     },
     "\/build\/lib\/jquery\/jquery.min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/build\/lib\/jquery\/jquery.min.js",
@@ -213,8 +213,8 @@
       "fileType" : 65536
     },
     "\/build\/lib\/bootstrap\/css\/bootstrap.min.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/build\/lib\/bootstrap\/css\/bootstrap.min.css",
@@ -222,8 +222,8 @@
       "fileType" : 16
     },
     "\/build\/lib\/font-awesome\/css\/font-awesome.min.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/build\/lib\/font-awesome\/css\/font-awesome.min.css",
@@ -258,7 +258,20 @@
     }
   },
   "manualImportLinks" : [
-
+    {
+      "type" : 0,
+      "position" : 0,
+      "linkedFileAbbreviatedPath" : "\/build\/lib\/jquery\/jquery.min.js",
+      "baseFileAbbreviatedPath" : "\/build\/js\/app.js",
+      "followForSyntaxChecking" : 1
+    },
+    {
+      "type" : 0,
+      "position" : 1,
+      "linkedFileAbbreviatedPath" : "\/build\/lib\/bootstrap\/js\/bootstrap.min.js",
+      "baseFileAbbreviatedPath" : "\/build\/js\/app.js",
+      "followForSyntaxChecking" : 1
+    }
   ],
   "projectSettings" : {
     "hamlNoEscapeInAttributes" : 0,
