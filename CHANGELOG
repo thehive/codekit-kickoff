@@ -1,9 +1,14 @@
 { 
 	Project:  CodeKit Kickoff,
 	Author:   www.iamlesher.com,
-	Version:  1.5.0,
-	Updated:  08.16.13
+	Version:  1.5.1,
+	Updated:  08.20.13
 }
+
+08.20.13 v1.5.1:
+	NEW Bootstrap to v3.0.0	final
+	ADDED ability to include the Bootstrap Theme easily within the libraries.less file
+	UPDATED the @font-primary variable to reflect the Bootstrap default font set ("Helvetica Neue", Helvetica, Arial, sans-serif)		
 
 08.16.13 v1.5.0:
 	Overall simplicity throughout the codebase and unification around Bootstrap 3 (Updated to RC2)

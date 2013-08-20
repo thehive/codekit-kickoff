@@ -8,7 +8,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/build\/less\/globals\/color-swatches.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/build\/less\/globals\/color-swatches.png",
       "initialSize" : 47622,
       "fileType" : 8192
@@ -25,7 +25,7 @@
     "\/build\/lib\/bootstrap\/js\/bootstrap.min.js" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 0,
+      "hidden" : 1,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/build\/lib\/bootstrap\/js\/bootstrap.min.js",
       "outputStyle" : 1,
@@ -152,7 +152,7 @@
     "\/build\/lib\/jquery\/jquery.min.js" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 0,
+      "hidden" : 1,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/build\/lib\/jquery\/jquery.min.js",
       "outputStyle" : 1,
@@ -215,7 +215,7 @@
     "\/build\/lib\/bootstrap\/css\/bootstrap.min.css" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 0,
+      "hidden" : 1,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/build\/lib\/bootstrap\/css\/bootstrap.min.css",
       "outputAbbreviatedPath" : "No Output Path",
@@ -224,7 +224,7 @@
     "\/build\/lib\/font-awesome\/css\/font-awesome.min.css" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
-      "hidden" : 0,
+      "hidden" : 1,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/build\/lib\/font-awesome\/css\/font-awesome.min.css",
       "outputAbbreviatedPath" : "No Output Path",
@@ -254,6 +254,15 @@
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/app\/_\/css\/app.min.css",
       "outputAbbreviatedPath" : "\/No Output Path",
+      "fileType" : 16
+    },
+    "\/build\/lib\/bootstrap\/css\/bootstrap-theme.min.css" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/build\/lib\/bootstrap\/css\/bootstrap-theme.min.css",
+      "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     }
   },
