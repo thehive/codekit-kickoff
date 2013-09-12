@@ -1,0 +1,15 @@
+Add Application Tests Here. 
+
+Store your application tests here. I prefer Karma/Jasmine, but obviously, you choose what suits your workflow
+
+If you want to use the Karma/Jasmine testing suite, your first step would be to run the karma init method.
+
+~ $ karma init
+
+Additional details here: 
+
+Installation: http://karma-runner.github.io/0.10/intro/installation.html
+Configuration: http://karma-runner.github.io/0.10/intro/configuration.html
+
+A good rule of thumb is to install the karma.conf.js file within the /tests directory and set the basePath to "../". 
+From there, you can simply manage the files variable to the files and specs that you would like to include in tests.
