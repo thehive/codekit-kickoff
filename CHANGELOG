@@ -1,10 +1,13 @@
 { 
 	Project:  CodeKit Kickoff,
 	Author:   www.iamlesher.com,
-	Version:  1.5.2,
-	Updated:  09.12.13
+	Version:  1.5.3,
+	Updated:  10.03.13
 }
 
+10.03.13 v1.5.3:
+	UPDATE to the way that CodeKit compiles the app.js file.
+	
 09.12.13 v1.5.2:
 	ADDED a tests directory to the root for testing scripts
 	UPDATED app.js to a Revealing Module pattern for consistency and security
