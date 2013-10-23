@@ -1,171 +1,179 @@
-{ 
-	Project:  CodeKit Kickoff,
-	Author:   www.iamlesher.com,
-	Version:  1.5.3,
-	Updated:  10.03.13
+{
+    Project:  CodeKit Kickoff,
+    Author:   www.iamlesher.com,
+    Version:  1.5.4,
+    Updated:  10.23.13
 }
 
+10.23.13 v1.5.4:
+    ADDED .circle() mixin to custom-mixins.less
+    ADDED app/_/fonts directory for Font Awesome 4.0.0
+    ADDED Glyphicon Fonts so that you can use either Font Awesome or Glypicon classes
+    UPDATED Font Awesome to 4.0.0
+    UPDATED mobile.less for Bootstrap media queries
+    REMOVED app/_/font directory
+
 10.03.13 v1.5.3:
-	UPDATE to the way that CodeKit compiles the app.js file.
-	
+    UPDATE to the way that CodeKit compiles the app.js file.
+
 09.12.13 v1.5.2:
-	ADDED a tests directory to the root for testing scripts
-	UPDATED app.js to a Revealing Module pattern for consistency and security
-	UPDATED app.js setting variable for standard JSON format
-	Minor Improvements
+    ADDED a tests directory to the root for testing scripts
+    UPDATED app.js to a Revealing Module pattern for consistency and security
+    UPDATED app.js setting variable for standard JSON format
+    Minor Improvements
 
 08.20.13 v1.5.1:
-	NEW Bootstrap to v3.0.0	final
-	ADDED ability to include the Bootstrap Theme easily within the libraries.less file
-	UPDATED the @font-primary variable to reflect the Bootstrap default font set ("Helvetica Neue", Helvetica, Arial, sans-serif)		
+    NEW Bootstrap to v3.0.0    final
+    ADDED ability to include the Bootstrap Theme easily within the libraries.less file
+    UPDATED the @font-primary variable to reflect the Bootstrap default font set ("Helvetica Neue", Helvetica, Arial, sans-serif)
 
 08.16.13 v1.5.0:
-	Overall simplicity throughout the codebase and unification around Bootstrap 3 (Updated to RC2)
-	MOVED /libs folder within the build folder for compiling of all assets into tidy app.min.css and app.min.js files. No longer requiring multiple trips to the server for several files
-	ADDED app/_/font folder to hold the Font Awesome fonts. This was the only lib dependency I couldn't move. Naturally, I removed the /font directory from the font-awesome directory
-	ADDED new colors to the colors.less file, as well as a reference swatchs from FlatUI (http://designmodo.github.io/Flat-UI/).
-	UPDATED build/less/libraries for referencing the library css files as (less) to compile them into the output app.min.css file
-	UPDATED index.kit to include the "Basic Grid Layout" from Bootstrap for reference to the grid system
-	UPDATED app.js to import jquery.min.js and bootstrap.min.js in lieu of being imported via libraries.js
-	UPDATED custom-font mixin to reference "font-" prefixed variables for consistency with their CSS counterparts
-	REMOVED libraries.js in order to decrease the amount of trips to the server for the JS resources
-	REMOVED	app/_/img/theme in favor of app/_/img - no real value seen over the past few months -- updated @img-url to reflect this
-	REMOVED	Font Awesome IE7 support. 
-	REMOVED the margin:0; padding:0; references for h1 -> h6 within the defaults.less file for inheriting the Bootstrap default margin/padding
+    Overall simplicity throughout the codebase and unification around Bootstrap 3 (Updated to RC2)
+    MOVED /libs folder within the build folder for compiling of all assets into tidy app.min.css and app.min.js files. No longer requiring multiple trips to the server for several files
+    ADDED app/_/font folder to hold the Font Awesome fonts. This was the only lib dependency I couldn't move. Naturally, I removed the /font directory from the font-awesome directory
+    ADDED new colors to the colors.less file, as well as a reference swatchs from FlatUI (http://designmodo.github.io/Flat-UI/).
+    UPDATED build/less/libraries for referencing the library css files as (less) to compile them into the output app.min.css file
+    UPDATED index.kit to include the "Basic Grid Layout" from Bootstrap for reference to the grid system
+    UPDATED app.js to import jquery.min.js and bootstrap.min.js in lieu of being imported via libraries.js
+    UPDATED custom-font mixin to reference "font-" prefixed variables for consistency with their CSS counterparts
+    REMOVED libraries.js in order to decrease the amount of trips to the server for the JS resources
+    REMOVED app/_/img/theme in favor of app/_/img - no real value seen over the past few months -- updated @img-url to reflect this
+    REMOVED Font Awesome IE7 support.
+    REMOVED the margin:0; padding:0; references for h1 -> h6 within the defaults.less file for inheriting the Bootstrap default margin/padding
 
 07.30.13 v1.4.0:
-	UPDATED colors.less for messaging colors, removal of some default colors, unification of naming convention (hyphens vs. capitalization) and updates to the default blue scheme
-	UPDATED custom-mixins.less for .debug() mixin color. Referencing @msg-info now, instead of hard-coded "red"
-	UPDATED defaults.less "a" reference to include the new .transition() mixin, and forced the text-decoration to be none by default
-	UPDATED Bootstrap to 3 RC1 (http://getbootstrap.com)
-	REMOVED Bootstrap Glyphicon files in favor of Font Awesome
-	REMOVED Normalize CSS
-	REMOVED Library directory versioning (i.e. /lib/bootstrap/<version>/js/... in favor of simplicity /lib/bootstrap/js/...)
-	REMOVED Font Awesome non-minified versions. They weren't being referenced, but no need to keep them there.
-	REMOVED jQuery 1.10.2 in favor of v2.0.3 and as mentioned, removed the reference to /2.0.3/jquery in favor of simplification
-	
+    UPDATED colors.less for messaging colors, removal of some default colors, unification of naming convention (hyphens vs. capitalization) and updates to the default blue scheme
+    UPDATED custom-mixins.less for .debug() mixin color. Referencing @msg-info now, instead of hard-coded "red"
+    UPDATED defaults.less "a" reference to include the new .transition() mixin, and forced the text-decoration to be none by default
+    UPDATED Bootstrap to 3 RC1 (http://getbootstrap.com)
+    REMOVED Bootstrap Glyphicon files in favor of Font Awesome
+    REMOVED Normalize CSS
+    REMOVED Library directory versioning (i.e. /lib/bootstrap/<version>/js/... in favor of simplicity /lib/bootstrap/js/...)
+    REMOVED Font Awesome non-minified versions. They weren't being referenced, but no need to keep them there.
+    REMOVED jQuery 1.10.2 in favor of v2.0.3 and as mentioned, removed the reference to /2.0.3/jquery in favor of simplification
+
 07.26.13 v1.3.5:
-	ADDED .transition() mixing within the custom-mixin less file
-	ADDED Tablet and Phone Media Query examples to the mobile.less file
-	ADDED "Social Colors" to the colors.less file for Social Media default colors
-	MOVED mobile.less within the /globals structure	
-	
+    ADDED .transition() mixing within the custom-mixin less file
+    ADDED Tablet and Phone Media Query examples to the mobile.less file
+    ADDED "Social Colors" to the colors.less file for Social Media default colors
+    MOVED mobile.less within the /globals structure
+
 07.05.13 v1.3.4:
-	ADDED favicon.ico default file to the root app folder
-	ADDED robots.txt default file to the root app folder
-	ADDED sitemap.xml default file to the root app folder
-	UPDATED Font Awesome (v3.2.1)
-	UPDATED jQuery v1 (v1.10.2)
-	UPDATED jQuery v2 (v2.0.3)	
+    ADDED favicon.ico default file to the root app folder
+    ADDED robots.txt default file to the root app folder
+    ADDED sitemap.xml default file to the root app folder
+    UPDATED Font Awesome (v3.2.1)
+    UPDATED jQuery v1 (v1.10.2)
+    UPDATED jQuery v2 (v2.0.3)
 
 06.11.13 v1.3.3:
-	Relocated the Google Analytics request to prior to the </head> from the footer
-	Removed the Google Urchin ID from the app.settings object in favor of placing the Urchin ID in the default location (within Google's code)
-	ADDED: /plugins directory under the app/lib/jquery directory for easy inclusion of jQuery plugins
-	ADDED: /img/theme directory under the app/_ directory for image consistency
-	ADDED: /plugins/README for allowing you to define details pertaining to plugin inclusion, use, etc.
-	ADDED: /img/theme/README for allowing you to define details pertaining to images, etc.
-	Updated: jQuery 1.10.0 -> 1.10.1
-	Updated: jQuery 2.0.1 -> 2.0.2
+    Relocated the Google Analytics request to prior to the </head> from the footer
+    Removed the Google Urchin ID from the app.settings object in favor of placing the Urchin ID in the default location (within Google's code)
+    ADDED: /plugins directory under the app/lib/jquery directory for easy inclusion of jQuery plugins
+    ADDED: /img/theme directory under the app/_ directory for image consistency
+    ADDED: /plugins/README for allowing you to define details pertaining to plugin inclusion, use, etc.
+    ADDED: /img/theme/README for allowing you to define details pertaining to images, etc.
+    Updated: jQuery 1.10.0 -> 1.10.1
+    Updated: jQuery 2.0.1 -> 2.0.2
 
 05.29.13 v1.3.2:
-	Removed Galeway font from default kit
-	ADDED: Source Sans Pro as default font
-	Updated: jQuery 1.9.1 -> 1.10.0
-	Updated: jQuery 2.0.0 -> 2.0.1
-	Updated: Bootstrap 2.3.1 -> 2.3.2
+    Removed Galeway font from default kit
+    ADDED: Source Sans Pro as default font
+    Updated: jQuery 1.9.1 -> 1.10.0
+    Updated: jQuery 2.0.0 -> 2.0.1
+    Updated: Bootstrap 2.3.1 -> 2.3.2
 
 05.14.13 v1.3.1:
-	Added font-family reference to the body attribute within the defaults.less file for IE glitches
-	Version Update to Normalize CSS (v2.1.2)
-	Version Update to Font Awesome (v3.1.1)
-	Version Include of jQuery v2.0.0 (***default still v1.9.1***)
-	Removal of LESSHat in favor of custom-mixins.less
-	Removal of HTML5Shiv due to infrequency of use
-	Update to header.kit for removal of HTML5Shiv
-	
+    Added font-family reference to the body attribute within the defaults.less file for IE glitches
+    Version Update to Normalize CSS (v2.1.2)
+    Version Update to Font Awesome (v3.1.1)
+    Version Include of jQuery v2.0.0 (***default still v1.9.1***)
+    Removal of LESSHat in favor of custom-mixins.less
+    Removal of HTML5Shiv due to infrequency of use
+    Update to header.kit for removal of HTML5Shiv
+
 04.04.13 v1.3.0:
-	NEW JS: Inclusion of the html5shiv.js (https://code.google.com/p/html5shiv) helper
-	NEW JS: Inclusion of the app.listeners() method for application kickoff
-	NEW JS: Inclusion of the app.settings object, which includes Application Name, Version and Google Analytics ID
-	NEW JS: Creation of build/js/libraries.js for managing all included JS libaries and corresponding compiled output (app/_/js/libraries.min.js)
-	NEW LESS: Creation of less/libraries.less for managing all included CSS/LESS libaries (imported by app.less)
-	NEW LESS: Inclusion of the .hide-text class for managing text/image replacement
-	NEW LESS: Inclusion of the .flexibile image class for scaling the image	
-	NEW LESS: Inclusion of the .divider() mixin within custom-mixins	
-	Update to header.kit for html5shiv
-	Update to footer.kit for inclusion of libraries.min.js reference
-	Update to footer.kit for inclusion of the Google Analytics script (including reference to app.settings.ga_analytics object)
-	Update to defaults.less for and update to the .clear class in favor of the Micro Clearfix attributes		
-	Removal of jQuery Mobile from the core scaffolding in favor of more responsive development
-	Removal of the clearFix() mixin, in favor of the .clear class, as clearFix() was not technically a mixin
-	Removal of the defaults.less hr styling in favor of the .divider class
-	General cleanup of code, documentation, etc. for the above changes.
+    NEW JS: Inclusion of the html5shiv.js (https://code.google.com/p/html5shiv) helper
+    NEW JS: Inclusion of the app.listeners() method for application kickoff
+    NEW JS: Inclusion of the app.settings object, which includes Application Name, Version and Google Analytics ID
+    NEW JS: Creation of build/js/libraries.js for managing all included JS libaries and corresponding compiled output (app/_/js/libraries.min.js)
+    NEW LESS: Creation of less/libraries.less for managing all included CSS/LESS libaries (imported by app.less)
+    NEW LESS: Inclusion of the .hide-text class for managing text/image replacement
+    NEW LESS: Inclusion of the .flexibile image class for scaling the image
+    NEW LESS: Inclusion of the .divider() mixin within custom-mixins
+    Update to header.kit for html5shiv
+    Update to footer.kit for inclusion of libraries.min.js reference
+    Update to footer.kit for inclusion of the Google Analytics script (including reference to app.settings.ga_analytics object)
+    Update to defaults.less for and update to the .clear class in favor of the Micro Clearfix attributes
+    Removal of jQuery Mobile from the core scaffolding in favor of more responsive development
+    Removal of the clearFix() mixin, in favor of the .clear class, as clearFix() was not technically a mixin
+    Removal of the defaults.less hr styling in favor of the .divider class
+    General cleanup of code, documentation, etc. for the above changes.
 
 04.02.13 v1.2.5:
-	Update to Bootstrap v2.3.1
-	Update to documentation
+    Update to Bootstrap v2.3.1
+    Update to documentation
 
 03.06.13 v1.2.4:
-	Added app/_/img/theme directory for segretating theme-based images into their own location
-	Updated build/less/app.less for referencing global LESS variable @img-url to reference the new img/theme path
-	Updated build/less/globals/colors.less to include @base, @highlight and @accent variables
-	Added new parameters to the "a" reference within the build/less/globals/defaults.less for handling hover/focus by default
-	Added hr parameter to the build/less/globals/defaults.less file for more control over the hr tag's style
+    Added app/_/img/theme directory for segretating theme-based images into their own location
+    Updated build/less/app.less for referencing global LESS variable @img-url to reference the new img/theme path
+    Updated build/less/globals/colors.less to include @base, @highlight and @accent variables
+    Added new parameters to the "a" reference within the build/less/globals/defaults.less for handling hover/focus by default
+    Added hr parameter to the build/less/globals/defaults.less file for more control over the hr tag's style
 
-02.26.13 v1.2.3: 	
-	Updated jQuery Mobile for version 1.3.0 release: http://jquerymobile.com/blog/2013/02/20/jquery-mobile-1-3-0-released
+02.26.13 v1.2.3:
+    Updated jQuery Mobile for version 1.3.0 release: http://jquerymobile.com/blog/2013/02/20/jquery-mobile-1-3-0-released
 
-02.21.13 v1.2.2: 	
-	Changed the textShadow mixin (build/less/globals/fonts.less) mixin to text-shadow for consistency with the other mixins
+02.21.13 v1.2.2:
+    Changed the textShadow mixin (build/less/globals/fonts.less) mixin to text-shadow for consistency with the other mixins
 
-02.20.13 v1.2.1: 
-	Changed the customFont mixin (build/less/globals/fonts.less) mixin to custom-font for consistency with the other mixins
+02.20.13 v1.2.1:
+    Changed the customFont mixin (build/less/globals/fonts.less) mixin to custom-font for consistency with the other mixins
 
-02.20.13 v1.2.0: 
-	Removed /html and moved index.html to /app -> Updated the CodeKit path for .kit files
-	Added app/_ directory and moved the css, img and js production files/folders within it -> Updated the corresponding CodeKit paths
-	Moved the lib directory within the /app directory -> Updated app.less file accordingly
+02.20.13 v1.2.0:
+    Removed /html and moved index.html to /app -> Updated the CodeKit path for .kit files
+    Added app/_ directory and moved the css, img and js production files/folders within it -> Updated the corresponding CodeKit paths
+    Moved the lib directory within the /app directory -> Updated app.less file accordingly
 
-02.19.13 v1.1.1: 
-	Updates to custom-mixins.less to add in new valuable mixins AND the ability to pass in LESS variables to most mixins.
+02.19.13 v1.1.1:
+    Updates to custom-mixins.less to add in new valuable mixins AND the ability to pass in LESS variables to most mixins.
 
-02.13.13 v1.1.0: 
-	NEW: Added LessHat to default lib set for access to convenient LESS mixins
-	Updates to mixins.less for removal of redundant (to LessHat) mixins
-	Rename of mixins.less to custom-mixins.less
+02.13.13 v1.1.0:
+    NEW: Added LessHat to default lib set for access to convenient LESS mixins
+    Updates to mixins.less for removal of redundant (to LessHat) mixins
+    Rename of mixins.less to custom-mixins.less
 
-02.13.13 v1.0.9: 
-	Minor tweaks to mixins.less and fonts.less
+02.13.13 v1.0.9:
+    Minor tweaks to mixins.less and fonts.less
 
-02.12.13 v1.0.8: 
-	Updates to ALL library folder/file naming conventions for easier managment and determination of version (i.e. /lib/jquery/1.9.1/jquery.min.js)
-	Updates to referential files for handling the new library naming convensions
-	Update to include a placeholder for Mobile Specific styles /build/less/partials/mobile.less
-	Update to /build/less/app.less to include the new mobile.less file
+02.12.13 v1.0.8:
+    Updates to ALL library folder/file naming conventions for easier managment and determination of version (i.e. /lib/jquery/1.9.1/jquery.min.js)
+    Updates to referential files for handling the new library naming convensions
+    Update to include a placeholder for Mobile Specific styles /build/less/partials/mobile.less
+    Update to /build/less/app.less to include the new mobile.less file
 
-02.12.13 v1.0.7: 
-	Update to jQuery 1.9.1
-	Update to Twitter Bootstrap 2.3.0
+02.12.13 v1.0.7:
+    Update to jQuery 1.9.1
+    Update to Twitter Bootstrap 2.3.0
 
-01.23.13 v1.0.6: 
-	Automatic Inclusion of Twitter Bootstrap, jQuery & Font Awesome
-	Update to Font Awesome 3.0.2
-	Update to Normalize CSS 2.0.1
+01.23.13 v1.0.6:
+    Automatic Inclusion of Twitter Bootstrap, jQuery & Font Awesome
+    Update to Font Awesome 3.0.2
+    Update to Normalize CSS 2.0.1
 
-01.18.13 v1.0.5: 
-	Update to build/less/globals/colors.less to include base, highlight and accent variables for easy switching of themes
+01.18.13 v1.0.5:
+    Update to build/less/globals/colors.less to include base, highlight and accent variables for easy switching of themes
 
-01.17.13 v1.0.4: 
-	Fixed error in the build/less/globals/fonts.less file where the size value was not being applied.
+01.17.13 v1.0.4:
+    Fixed error in the build/less/globals/fonts.less file where the size value was not being applied.
 
-01.17.13 v1.0.3: 
-	Minor tweaks to documentation
-	Moved reference to app.min.js from kits/partials/header.kit to kits/partials/footer.kit for faster page loading
-	Moved reference to the Viewport div ID from kits/partials/header.kit to the kits/index.kit
-	Moved reference to the Viewport close div ID from kits/partials/footer.kit to the kits/index.kit
+01.17.13 v1.0.3:
+    Minor tweaks to documentation
+    Moved reference to app.min.js from kits/partials/header.kit to kits/partials/footer.kit for faster page loading
+    Moved reference to the Viewport div ID from kits/partials/header.kit to the kits/index.kit
+    Moved reference to the Viewport close div ID from kits/partials/footer.kit to the kits/index.kit
 
-01.17.13 v1.0.2: 
-	Updates to jQuery Library for 1.9.0 Release
+01.17.13 v1.0.2:
+    Updates to jQuery Library for 1.9.0 Release
 
 01.09.13 v1.0.1: Initial Release
