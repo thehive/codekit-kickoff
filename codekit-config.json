@@ -22,6 +22,28 @@
       "outputAbbreviatedPath" : "\/No Output Path",
       "fileType" : 2048
     },
+    "\/build\/lib\/bootstrap\/js\/bootstrap.min.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/build\/lib\/bootstrap\/js\/bootstrap.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 2,
+      "outputAbbreviatedPath" : "\/app\/js\/bootstrap.min.min.js",
+      "fileType" : 64
+    },
+    "\/build\/js\/app.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 1,
+      "inputAbbreviatedPath" : "\/build\/js\/app.js",
+      "outputStyle" : 0,
+      "syntaxCheckerStyle" : 2,
+      "outputAbbreviatedPath" : "\/app\/_\/js\/app.min.js",
+      "fileType" : 64
+    },
     "\/build\/less\/globals\/colors.less" : {
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/build\/less\/globals\/colors.less",
@@ -38,28 +60,6 @@
       "outputStyle" : 2,
       "fileType" : 1,
       "debugStyle" : 0
-    },
-    "\/build\/js\/app.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 1,
-      "inputAbbreviatedPath" : "\/build\/js\/app.js",
-      "outputStyle" : 0,
-      "syntaxCheckerStyle" : 2,
-      "outputAbbreviatedPath" : "\/app\/_\/js\/app.min.js",
-      "fileType" : 64
-    },
-    "\/build\/lib\/bootstrap\/js\/bootstrap.min.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/lib\/bootstrap\/js\/bootstrap.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 2,
-      "outputAbbreviatedPath" : "\/app\/js\/bootstrap.min.min.js",
-      "fileType" : 64
     },
     "\/build\/less\/globals\/mobile.less" : {
       "ieCompatibility" : 1,
