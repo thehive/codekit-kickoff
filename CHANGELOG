@@ -1,13 +1,17 @@
 {
     Project:  CodeKit Kickoff,
     Author:   www.iamlesher.com,
-    Version:  1.5.5,
+    Version:  1.5.6,
     Updated:  12.19.13
 }
 
-12.19.13 v1.5.5:
+12.19.13 v1.5.6:
     UPDATED Font Awesome to 4.0.3
     UPDATED Bootstrap to 3.0.3
+
+11.01.13 v1.5.5:
+    UPDATED Font Awesome to 4.0.1
+    UPDATED Bootstrap to 3.0.1
 
 10.23.13 v1.5.4:
     ADDED .circle() mixin to custom-mixins.less

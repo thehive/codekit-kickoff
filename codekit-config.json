@@ -2,17 +2,6 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "8403",
   "files" : {
-    "\/build\/less\/globals\/color-swatches.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/less\/globals\/color-swatches.png",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/build\/less\/globals\/color-swatches.png",
-      "initialSize" : 47622,
-      "fileType" : 8192
-    },
     "\/app\/index.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -21,28 +10,6 @@
       "inputAbbreviatedPath" : "\/app\/index.html",
       "outputAbbreviatedPath" : "\/No Output Path",
       "fileType" : 2048
-    },
-    "\/build\/lib\/bootstrap\/js\/bootstrap.min.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/lib\/bootstrap\/js\/bootstrap.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 2,
-      "outputAbbreviatedPath" : "\/app\/js\/bootstrap.min.min.js",
-      "fileType" : 64
-    },
-    "\/build\/js\/app.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 1,
-      "inputAbbreviatedPath" : "\/build\/js\/app.js",
-      "outputStyle" : 0,
-      "syntaxCheckerStyle" : 2,
-      "outputAbbreviatedPath" : "\/app\/_\/js\/app.min.js",
-      "fileType" : 64
     },
     "\/build\/less\/globals\/colors.less" : {
       "ieCompatibility" : 1,
@@ -60,6 +27,39 @@
       "outputStyle" : 2,
       "fileType" : 1,
       "debugStyle" : 0
+    },
+    "\/build\/less\/globals\/color-swatches.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/build\/less\/globals\/color-swatches.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/build\/less\/globals\/color-swatches.png",
+      "initialSize" : 47622,
+      "fileType" : 8192
+    },
+    "\/build\/js\/app.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 1,
+      "inputAbbreviatedPath" : "\/build\/js\/app.js",
+      "outputStyle" : 0,
+      "syntaxCheckerStyle" : 2,
+      "outputAbbreviatedPath" : "\/app\/_\/js\/app.min.js",
+      "fileType" : 64
+    },
+    "\/build\/lib\/bootstrap\/js\/bootstrap.min.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/build\/lib\/bootstrap\/js\/bootstrap.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 2,
+      "outputAbbreviatedPath" : "\/app\/js\/bootstrap.min.min.js",
+      "fileType" : 64
     },
     "\/build\/less\/globals\/mobile.less" : {
       "ieCompatibility" : 1,
