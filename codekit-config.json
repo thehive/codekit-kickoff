@@ -13,6 +13,17 @@
       "initialSize" : 47622,
       "fileType" : 8192
     },
+    "\/build\/lib\/bootstrap\/js\/bootstrap.min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/build\/lib\/bootstrap\/js\/bootstrap.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 2,
+      "outputAbbreviatedPath" : "\/app\/js\/bootstrap.min.min.js",
+      "fileType" : 64
+    },
     "\/app\/index.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -21,17 +32,6 @@
       "inputAbbreviatedPath" : "\/app\/index.html",
       "outputAbbreviatedPath" : "\/No Output Path",
       "fileType" : 2048
-    },
-    "\/build\/lib\/bootstrap\/js\/bootstrap.min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/lib\/bootstrap\/js\/bootstrap.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 2,
-      "outputAbbreviatedPath" : "\/app\/js\/bootstrap.min.min.js",
-      "fileType" : 64
     },
     "\/build\/js\/app.js" : {
       "ignoreWasSetByUser" : 0,
@@ -76,18 +76,6 @@
       "strictMath" : 0,
       "outputStyle" : 2,
       "fileType" : 1,
-      "debugStyle" : 0
-    },
-    "\/build\/lib\/bootstrap\/css\/bootstrap-theme.min.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/lib\/bootstrap\/css\/bootstrap-theme.min.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/app\/css\/bootstrap-theme.min.css",
-      "fileType" : 4,
       "debugStyle" : 0
     },
     "\/build\/kits\/partials\/header.kit" : {
@@ -189,6 +177,44 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
+    "\/app\/js\/bootstrap.min.min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/app\/js\/bootstrap.min.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 2,
+      "outputAbbreviatedPath" : "\/app\/js\/bootstrap.min.min.min.js",
+      "fileType" : 64
+    },
+    "\/build\/kits\/index.kit" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 1,
+      "inputAbbreviatedPath" : "\/build\/kits\/index.kit",
+      "outputAbbreviatedPath" : "\/app\/index.html",
+      "fileType" : 65536
+    },
+    "\/build\/kits\/partials\/footer.kit" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/build\/kits\/partials\/footer.kit",
+      "outputAbbreviatedPath" : "\/html\/footer.html",
+      "fileType" : 65536
+    },
+    "\/build\/lib\/bootstrap\/css\/bootstrap.min.css" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/build\/lib\/bootstrap\/css\/bootstrap.min.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
     "\/build\/less\/app.less" : {
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/build\/less\/app.less",
@@ -206,35 +232,14 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/build\/lib\/bootstrap\/css\/bootstrap.min.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/lib\/bootstrap\/css\/bootstrap.min.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/app\/css\/bootstrap.min.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/build\/kits\/partials\/footer.kit" : {
+    "\/build\/lib\/font-awesome\/css\/font-awesome.min.css" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
       "hidden" : 1,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/kits\/partials\/footer.kit",
-      "outputAbbreviatedPath" : "\/html\/footer.html",
-      "fileType" : 65536
-    },
-    "\/build\/kits\/index.kit" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 1,
-      "inputAbbreviatedPath" : "\/build\/kits\/index.kit",
-      "outputAbbreviatedPath" : "\/app\/index.html",
-      "fileType" : 65536
+      "inputAbbreviatedPath" : "\/build\/lib\/font-awesome\/css\/font-awesome.min.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/build\/less\/globals\/custom-mixins.less" : {
       "ieCompatibility" : 1,
@@ -262,17 +267,14 @@
       "outputAbbreviatedPath" : "\/No Output Path",
       "fileType" : 16
     },
-    "\/build\/lib\/font-awesome\/css\/font-awesome.min.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
+    "\/build\/lib\/bootstrap\/css\/bootstrap-theme.min.css" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 1,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/lib\/font-awesome\/css\/font-awesome.min.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/app\/css\/font-awesome.min.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/build\/lib\/bootstrap\/css\/bootstrap-theme.min.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     }
   },
   "manualImportLinks" : [
@@ -280,6 +282,13 @@
       "type" : 0,
       "position" : 0,
       "linkedFileAbbreviatedPath" : "\/build\/lib\/jquery\/jquery.min.js",
+      "baseFileAbbreviatedPath" : "\/build\/js\/app.js",
+      "followForSyntaxChecking" : 1
+    },
+    {
+      "type" : 0,
+      "position" : 1,
+      "linkedFileAbbreviatedPath" : "\/build\/lib\/bootstrap\/js\/bootstrap.min.js",
       "baseFileAbbreviatedPath" : "\/build\/js\/app.js",
       "followForSyntaxChecking" : 1
     }
