@@ -1,6 +1,12 @@
 // Custom Mixins
 // Description: Custom Mixins for use throughout the application
 
+.background-cover() {
+	-moz-background-size:cover; 
+	-webkit-background-size:cover; 
+	background-size:cover;
+}
+
 .border-radius(@topleft: 5px, @topright: 5px, @bottomright: 5px, @bottomleft: 5px) { 
 	-webkit-border-radius: @topleft @topright @bottomright @bottomleft;
 	-moz-border-radius: @topleft @topright @bottomright @bottomleft;

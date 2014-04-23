@@ -3,7 +3,8 @@
 
 // Image Path Relative to /app/_/css
 // ------------------------------------------------------------------------
-@img-url: "../img";
+$img-url: "../img";
+// Example of how to use -- background: url("#{$img-url}/background-image.png") repeat top left;
 
 // Include Libaries
 @import "libraries";
@@ -26,5 +27,5 @@
 // ------------------------------------------------------------------------
 // @import "partials/...";
 
-// Mobile Specific Styles & Settings 
+// Mobile Specific Styles & Settings
 @import "globals/mobile";

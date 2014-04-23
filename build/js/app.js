@@ -1,7 +1,6 @@
-// Custom JS Application Code (Revealing Module Pattern)
+// Custom JS Application Code
 
-// If using JSLint for syntax debugging, include the following two lines for looser management
-/*jslint browser: true, sloppy: true, white: true, vars: true*/
+// If using JSLint for syntax debugging, include the following
 /*global $, console, alert, App*/
 
 $(function() { 
@@ -24,7 +23,6 @@ var App = (function() {
 	var init = function() {
 		// Kick off the listeners
 		listen();
-		
 		// Application has been initalized
 		console.log(settings.name + "(v" + settings.version + ") Started");	
 	};

@@ -1,9 +1,19 @@
 {
     Project:  CodeKit Kickoff,
     Author:   www.iamlesher.com,
-    Version:  1.5.8,
-    Updated:  03.17.14
+    Version:  2.0.0,
+    Updated:  04.23.14
 }
+
+04.23.14 v2.0.0:
+    MERGED the Codekit Kickoff SASS Branch - Now both the app.less and app.scss files compile out to app.css. You choose what you prefer to use. Default is LESS.
+    ADDED index.html in the root path of the project, which mirrors the app/index.html file, so that you can use CodeKit's "Preview" button
+    ADDED bootstrap-theme.min.scss, bootstrap.min.scss and font-awesome.min.scss, which are just renamed copies of their CSS counterparts for the SASS compiler to embed the code into app.css, rather than @import them.
+    CHANGED app.min.css to simply app.css. Both app.less and app.scss compile to this file and will overwrite it based on which you choose to use.
+    UPDATED header.kit to reflect the new app.css file reference
+    UPDATED app.js to remove JSLINT preferences on previous Line 5, in favor of managing that preference within CodeKit.
+    UPDATED CodeKit's Project Settings for LESS, SASS, KIT and JS compiling preferences and output paths
+    REMOVED codekit.config in favor of CodeKit 2.0's use of the config.codekit file
 
 03.17.14 v1.5.8:
     UPDATED colors.less for incorrect hex code on @silver variable
