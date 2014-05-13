@@ -2,10 +2,10 @@
     Project:  CodeKit Kickoff,
     Author:   www.iamlesher.com,
     Version:  2.0.1,
-    Updated:  04.12.14
+    Updated:  05.12.14
 }
 
-04.12.14 v2.0.1:
+05.12.14 v2.0.1:
     UPDATE to footer.kit (and index.html by proxy) for new Google Analytics Universal Properties script
     UPDATE to app.js for the overall App variable, which now references a "ga" analytics element
     UPDATE to custom-mixins.less/scss for better reliability of the Circle Mixin
