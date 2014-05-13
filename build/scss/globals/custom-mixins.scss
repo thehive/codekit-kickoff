@@ -41,7 +41,7 @@
 }
 
 @mixin circle($size:20px) {
-	@include border-radius-whole(45px);
+	@include border-radius-whole(50%);
 	display: inline-block;
 	height: $size;
 	width: $size;

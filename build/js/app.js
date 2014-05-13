@@ -7,28 +7,27 @@ $(function() {
 	App.init();
 });
 
-var App = (function() { 
+var App = { 
 
-	var settings = { 
-		"name": "My Application",	
-		"url": "application_url.com",
-		"version": "1.0.0"	
-	};
+	settings: { 
+		name: "My Application",	
+		version: "1.0.0",
+		ga: {
+			urchin: "UA-XXXXXX-XX",
+			url: "yourdomain.com"
+		}
+	},
 
-	var listen = function() { 
+	listen: function() { 
 		// Application Listeners can be loaded here for easy configuration		
 		console.log("Ready and Listening");
-	};	
+	},	
 
-	var init = function() {
+	init: function() {
 		// Kick off the listeners
-		listen();
+		this.listen();
 		// Application has been initalized
-		console.log(settings.name + "(v" + settings.version + ") Started");	
-	};
-		
-	return {
-		init: init
-	};
-	
-}());
+		console.log(this.settings.name + "(v" + this.settings.version + ") Started");	
+	}
+
+};

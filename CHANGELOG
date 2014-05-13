@@ -1,9 +1,15 @@
 {
     Project:  CodeKit Kickoff,
     Author:   www.iamlesher.com,
-    Version:  2.0.0,
-    Updated:  04.23.14
+    Version:  2.0.1,
+    Updated:  04.12.14
 }
+
+04.12.14 v2.0.1:
+    UPDATE to footer.kit (and index.html by proxy) for new Google Analytics Universal Properties script
+    UPDATE to app.js for the overall App variable, which now references a "ga" analytics element
+    UPDATE to custom-mixins.less/scss for better reliability of the Circle Mixin
+    UPDATE jQuery to 2.1.1
 
 04.23.14 v2.0.0:
     MERGED the Codekit Kickoff SASS Branch - Now both the app.less and app.scss files compile out to app.css. You choose what you prefer to use. Default is LESS.
