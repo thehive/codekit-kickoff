@@ -15,7 +15,7 @@ To that end, each of these frameworks and libraries have their own Licensing Res
 
 ## Contact
 
-- [iAmLesher](http://www.iamlesher.com)
+- [www.iamlesher.com](http://www.iamlesher.com)
 
 ## Project Licensing (CodeKit Kickoff ONLY)
 

@@ -1,0 +1,33 @@
+// Application Style Controller
+// Description: Set Imports and Variables (Image) Here
+
+// Paths Relative to /app/_/css
+// ------------------------------------------------------------------------
+
+$img-url: "../img";
+
+// Example of how to use -- background: url("#{$img-url}/background-image.png") repeat top left;
+
+// Include Libaries
+@import "libraries"; 
+
+// Color Palette & Mixins for the Application
+// ------------------------------------------------------------------------
+@import "globals/colors";
+@import "globals/custom-mixins";
+@import "globals/fonts";
+
+// Globals
+// ------------------------------------------------------------------------
+@import "globals/defaults";
+
+// Start Application Styles & Settings
+// ------------------------------------------------------------------------
+@import "partials/viewport";
+
+// Add additional /partials Below
+// ------------------------------------------------------------------------
+// @import "partials/...";
+
+// Mobile Specific Styles & Settings
+@import "globals/mobile";

@@ -1,9 +1,19 @@
 {
     Project:  CodeKit Kickoff,
     Author:   www.iamlesher.com,
-    Version:  2.0.1,
-    Updated:  05.12.14
+    Version:  2.1.0,
+    Updated:  07.08.14
 }
+
+07.08.14 v2.1.0:
+    NEW build/styles directory for segregation of LESS and SCSS files
+    UPDATE Font Awesome (4.1.0)
+    UPDATE Boostrap (3.2.0)
+    REMOVED Bootstrap CSS files in favor of the LESS and SCSS counterparts (include or exclude features via comment)
+    REMOVED Font Awesome CSS files in favor of the LESS and SCSS counterparts (include or exclude features via comment)
+    UPDATE to libraries(less/scss) files to include the appropriate Bootstrap and Font Awesome files
+    UPDATES to gitignore
+    REMOVED /tests directory, as it was outside of the scope of this project. You should test your code, but I leave it up to you.
 
 05.12.14 v2.0.1:
     UPDATE to footer.kit (and index.html by proxy) for new Google Analytics Universal Properties script
