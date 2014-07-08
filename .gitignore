@@ -6,3 +6,7 @@
 .sass-cache
 
 .codekit-cache
+
+*.sublime-project
+
+*.sublime-workspace
