@@ -6,9 +6,9 @@
 }
 
 09.16.14 v2.2.0
-    ADDED to the Bower Registry
     RENAMED the "_" directory as the "assets" directory, for easier integration to various CMS and blog engines
     UPDATED Font Awesome to 4.2.0
+    ADDED to the Bower Registry
 
 07.08.14 v2.1.0:
     NEW build/styles directory for segregation of LESS and SCSS files

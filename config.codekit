@@ -3409,13 +3409,13 @@
 	"\/build\/js\/app.js": [
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/build\/lib\/bootstrap\/js\/bootstrap.min.js",
+			"linkedFileAbbreviatedPath": "\/build\/lib\/jquery\/jquery.min.js",
 			"position": 0,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/build\/lib\/jquery\/jquery.min.js",
+			"linkedFileAbbreviatedPath": "\/build\/lib\/bootstrap\/js\/bootstrap.min.js",
 			"position": 1,
 			"type": 0
 			}
