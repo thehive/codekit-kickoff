@@ -1,0 +1,33 @@
+{
+  "name": "codekit-kickoff",
+  "description": "A scaffold for use with CodeKit",
+  "version": "2.2.0",
+  "main": "app/index.html",
+  "license": "MIT",
+  "ignore": [
+    ".codekit-cache",
+    ".gitignore",
+    "*.sublime-project"
+    "*.sublime-workspace"
+  ],
+  "keywords": [
+    "codekit",
+    "automate",
+    "build",
+    "html",
+    "bootstrap",
+    "javascript",
+    "scaffold"
+  ],
+  "authors": [
+    {
+      "name": "Michael Lesher",
+      "email": "mike.lesher@gmail.com",
+      "homepage": "http://www.iamlesher.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/thehive/codekit-kickoff.git"
+  }
+}
