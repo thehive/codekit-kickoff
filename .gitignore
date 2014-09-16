@@ -10,7 +10,3 @@
 *.sublime-project
 
 *.sublime-workspace
-
-config.codekit
-
-bower.json
