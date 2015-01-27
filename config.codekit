@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "18027",
+"creatorBuild": "18493",
 "files": {
 	"\/app\/assets\/css\/app.css": {
 		"fileType": 16,
@@ -68,17 +68,6 @@
 		"outputAbbreviatedPath": "\/app\/header.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
-		},
-	"\/build\/lib\/bootstrap\/js\/bootstrap.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/lib\/bootstrap\/js\/bootstrap.min.js",
-		"outputAbbreviatedPath": "\/app\/assets\/js\/bootstrap.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 2
 		},
 	"\/build\/lib\/bootstrap\/less\/alerts.less": {
 		"allowInsecureImports": 0,
@@ -2600,6 +2589,26 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/build\/lib\/font-awesome\/less\/animated.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/build\/lib\/font-awesome\/less\/animated.less",
+		"outputAbbreviatedPath": "\/app\/assets\/css\/animated.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
 	"\/build\/lib\/font-awesome\/less\/bordered-pulled.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
@@ -2800,26 +2809,6 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
-	"\/build\/lib\/font-awesome\/less\/spinning.less": {
-		"allowInsecureImports": 0,
-		"createSourceMap": 0,
-		"disableJavascript": 0,
-		"fileType": 1,
-		"ieCompatibility": 1,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/lib\/font-awesome\/less\/spinning.less",
-		"outputAbbreviatedPath": "\/app\/_\/css\/spinning.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 2,
-		"relativeURLS": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"strictImports": 0,
-		"strictMath": 0,
-		"strictUnits": 0
-		},
 	"\/build\/lib\/font-awesome\/less\/stacked.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
@@ -2859,6 +2848,22 @@
 		"strictImports": 0,
 		"strictMath": 0,
 		"strictUnits": 0
+		},
+	"\/build\/lib\/font-awesome\/scss\/_animated.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/build\/lib\/font-awesome\/scss\/_animated.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/css\/_animated.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
 		},
 	"\/build\/lib\/font-awesome\/scss\/_bordered-pulled.scss": {
 		"createSourceMap": 0,
@@ -3004,22 +3009,6 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/build\/lib\/font-awesome\/scss\/_spinning.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 5,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/lib\/font-awesome\/scss\/_spinning.scss",
-		"outputAbbreviatedPath": "\/app\/_\/css\/_spinning.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
 	"\/build\/lib\/font-awesome\/scss\/_stacked.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -3070,10 +3059,10 @@
 		},
 	"\/build\/lib\/jquery\/jquery.min.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/lib\/jquery\/jquery.min.js",
-		"outputAbbreviatedPath": "\/app\/_\/js\/jquery.min.min.js",
+		"outputAbbreviatedPath": "\/app\/assets\/js\/jquery.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -3406,14 +3395,6 @@
 	],
 "lastSavedByUser": "Michael Lesher",
 "manualImportLinks": {
-	"\/build\/js\/app.js": [
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/build\/lib\/jquery\/jquery.min.js",
-			"position": 0,
-			"type": 0
-			}
-		]
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
@@ -3458,6 +3439,10 @@
 			},
 		"empty_constructor_needs_parens": {
 			"active": 0,
+			"flagValue": -1
+			},
+		"ensure_comprehensions": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"indentation": {
@@ -3551,6 +3536,10 @@
 		"space_operators": {
 			"active": 0,
 			"flagValue": -1
+			},
+		"spacing_after_comma": {
+			"active": 1,
+			"flagValue": -1
 			}
 		},
 	"coffeeMinifyOutput": 1,
@@ -3607,6 +3596,10 @@
 			"active": 1,
 			"flagValue": -1
 			},
+		"browserify": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"camelcase": {
 			"active": 0,
 			"flagValue": -1
@@ -3629,6 +3622,10 @@
 			},
 		"dojo": {
 			"active": 0,
+			"flagValue": -1
+			},
+		"elision": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"eqeqeq": {
@@ -3683,6 +3680,10 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"jasmine": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"jquery": {
 			"active": 1,
 			"flagValue": -1
@@ -3726,6 +3727,10 @@
 		"maxstatements": {
 			"active": 0,
 			"flagValue": 4
+			},
+		"mocha": {
+			"active": 0,
+			"flagValue": -1
 			},
 		"mootools": {
 			"active": 0,
@@ -3795,6 +3800,10 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"qunit": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"regexp": {
 			"active": 1,
 			"flagValue": -1
@@ -3812,6 +3821,10 @@
 			"flagValue": -1
 			},
 		"shelljs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"singleGroups": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -4015,6 +4028,7 @@
 	"slimAutoOutputPathStyle": 0,
 	"slimCompileOnly": 0,
 	"slimLogicless": 0,
+	"slimOutputFormat": 0,
 	"slimOutputStyle": 1,
 	"slimRailsCompatible": 0,
 	"stylusAutoOutputPathEnabled": 1,
@@ -4039,8 +4053,9 @@
 	"typescriptMinifyOutput": 0,
 	"typescriptModuleType": 0,
 	"typescriptNoImplicitAny": 0,
-	"typescriptNoResolve": 0,
+	"typescriptPreserveConstEnums": 0,
 	"typescriptRemoveComments": 0,
+	"typescriptSuppressImplicitAnyIndexErrors": 0,
 	"typescriptTargetECMAVersion": 0,
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
@@ -4077,6 +4092,10 @@
 			"flagValue": -1
 			},
 		"dead_code": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"drop_console": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -4120,6 +4139,10 @@
 			"active": 1,
 			"flagValue": -1
 			},
+		"keep_fargs": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"loops": {
 			"active": 1,
 			"flagValue": -1
@@ -4132,8 +4155,16 @@
 			"active": 1,
 			"flagValue": 32000
 			},
+		"negate_iife": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"properties": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"pure_getters": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"quote-keys": {
