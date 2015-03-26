@@ -1,9 +1,12 @@
 {
     Project:  CodeKit Kickoff,
     Author:   www.iamlesher.com,
-    Version:  2.3.1,
-    Updated:  01.27.15
+    Version:  2.3.2,
+    Updated:  03.26.15
 }
+
+03.26.15 v2.3.2
+    UPDATED Bootstrap to 3.3.4
 
 01.27.15 v2.3.1
     UPDATED jQuery to 2.1.3
